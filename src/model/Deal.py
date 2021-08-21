@@ -1,5 +1,8 @@
 
 
+from typing import Dict
+
+
 class Deal():
     serialNumber: str             # 編號 (UID)
     ###
@@ -39,6 +42,7 @@ class Deal():
     compartmented: bool           # 建物現況格局-隔間
     elevator: bool                # 電梯
 
+
     def __init__(self, row):
         self.serialNumber = row["編號"]
         ###
@@ -77,6 +81,13 @@ class Deal():
         self.manageOrganization = row["有無管理組織"]
         self.compartmented = row["建物現況格局-隔間"]
         self.elevator = row["電梯"]
+
+                
+
+        
+        
+        
+        
         
 
 
