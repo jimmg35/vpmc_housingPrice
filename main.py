@@ -62,7 +62,15 @@ if __name__ == "__main__":
 
     holderArray: HolderArray = structureHolder(dealArrays, buildArrays, landArrays, parkArrays)
     holderArray.status()
-    
+
+
+    # for i in holderArray.contents:
+    #     if i.totalLevelIsDeviant:
+    #         try:
+    #             print(i.parsedTotalLevel, i.deal.buildingState)
+    #         except:
+    #             continue
+
         
 
 
