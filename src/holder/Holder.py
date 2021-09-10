@@ -189,22 +189,23 @@ class Holder():
     ###################################
 
     def startUp(self):
-        self.parseTransactionSign()      # 解析交易標的
-        self.parseTransactionAmount()    # 解析交易筆棟數
-        self.validateTransactionDetail() # 比對上述兩者是否吻合
+
+        self.parseTransactionSign()               # 解析交易標的
+        self.parseTransactionAmount()             # 解析交易筆棟數
+        self.validateTransactionDetail()          # 比對上述兩者是否吻合
 
         ####
 
-        self.detectNote()                # 利用關鍵字排除備註特殊交易
+        self.detectNote()                         # 利用關鍵字排除備註特殊交易
 
         ####
 
-        self.parseTotalLevel()
-        self.validateTotalLevelByBuildingState()
+        self.parseTotalLevel()                    # 解析總樓層數
+        self.validateTotalLevelByBuildingState()  # 驗證樓層數與建物型態
 
         ###
 
-        self.parseShiftingLevel()
+        self.parseShiftingLevel()                 # 解析夾層與樓中樓
 
 
 

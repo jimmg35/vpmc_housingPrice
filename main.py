@@ -54,10 +54,20 @@ def structureHolder(dealArrays: List[Deal], buildArrays: List[Build],
 
 if __name__ == "__main__":
 
-    dealArrays = readFile("data/a_lvr_land_a.csv", "Deal")
-    buildArrays = readFile("data/a_lvr_land_a_build.csv", "Build")
-    landArrays = readFile("data/a_lvr_land_a_land.csv", "Land")
-    parkArrays = readFile("data/a_lvr_land_a_park.csv", "Park")
+    # dealArrays = readFile("data/Taipei/a_lvr_land_a.csv", "Deal")
+    # buildArrays = readFile("data/Taipei/a_lvr_land_a_build.csv", "Build")
+    # landArrays = readFile("data/Taipei/a_lvr_land_a_land.csv", "Land")
+    # parkArrays = readFile("data/Taipei/a_lvr_land_a_park.csv", "Park")
+
+    # dealArrays = readFile("data/Taichung/b_lvr_land_a.csv", "Deal")
+    # buildArrays = readFile("data/Taichung/b_lvr_land_a_build.csv", "Build")
+    # landArrays = readFile("data/Taichung/b_lvr_land_a_land.csv", "Land")
+    # parkArrays = readFile("data/Taichung/b_lvr_land_a_park.csv", "Park")
+
+    dealArrays = readFile("data/Keelung/c_lvr_land_a.csv", "Deal")
+    buildArrays = readFile("data/Keelung/c_lvr_land_a_build.csv", "Build")
+    landArrays = readFile("data/Keelung/c_lvr_land_a_land.csv", "Land")
+    parkArrays = readFile("data/Keelung/c_lvr_land_a_park.csv", "Park")
 
 
     holderArray: HolderArray = structureHolder(dealArrays, buildArrays, landArrays, parkArrays)
