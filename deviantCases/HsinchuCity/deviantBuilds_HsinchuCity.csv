@@ -1,0 +1,920 @@
+﻿,編號,屋齡,建物移轉面積平方公尺,主要用途,主要建材,建築完成日期,總層數,建物分層
+0,RPTTMLOKNHOFFAO37CA,47.0,63.48,住宅,加強磚造,1961年1月15日,nan,一層 二層 三層
+1,RPQNMLPKNHOFFAO76EA,25.0,85.77,住家用,鋼筋混凝土造,1983年9月3日,六層,六層 陽台
+2,RPQNMLPKNHOFFAO76EA,25.0,25.38,共有部分,鋼筋混凝土造,1983年9月3日,六層,nan
+3,RPXNMLRKNHOFFAO47CA,5.0,44.23,辦公室,鋼筋混凝土造,103年6月10日,九層,六層 陽台
+4,RPXNMLRKNHOFFAO47CA,5.0,48.82,共有部分,鋼筋混凝土造,103年6月10日,九層,nan
+5,RPRNMLRKNHOFFAO86CA,21.0,82.68,店舖、住宅,鋼筋混凝土造,1986年12月2日,八層,一層 二層 陽台 騎樓
+6,RPRNMLRKNHOFFAO86CA,21.0,6.68,共有部分,鋼筋混凝土造,1986年12月2日,八層,nan
+7,RPRNMLRKNHOFFAO86CA,21.0,6.33,共有部分,鋼筋混凝土造,1986年12月2日,八層,nan
+8,RPPPMLQKNHOFFAO76CA,11.0,151.34,集合住宅,鋼筋混凝土造,1997年8月26日,二十六層,七層 陽台 雨遮
+9,RPPPMLQKNHOFFAO76CA,11.0,28.34,樓梯間,鋼筋混凝土造,1997年8月26日,二十六層,nan
+10,RPPPMLQKNHOFFAO76CA,11.0,26.23,門廳、機房、防空避難室、守衛室,鋼筋混凝土造,1997年8月26日,二十六層,nan
+11,RPPPMLQKNHOFFAO76CA,11.0,33.78,停車空間,鋼筋混凝土造,1997年8月26日,二十六層,nan
+12,RPVPMLRKNHOFFAO47CA,44.0,113.97,住家用,nan,1964年3月22日,三層,一層 二層 三層 四層 騎樓
+13,RPQOMLOKOHOFFAO86EA,21.0,162.13,住家用,鋼筋混凝土造,1987年3月2日,十四層,十三層 十四層 見其他登記事項
+14,RPQOMLOKOHOFFAO86EA,21.0,19.36,住家用,鋼筋混凝土造,1987年3月2日,十四層,nan
+15,RPQOMLOKOHOFFAO86EA,21.0,95.3,避難室、停車空間,鋼筋混凝土造,1987年3月2日,十四層,nan
+16,RPRPMLLLNHOFFAO76EA,36.0,75.98,住家用,鋼筋混凝土造,1971年11月5日,五層,五層 陽台
+17,RPPNMLKLNHOFFAO68CA,36.0,117.98,住工用,加強磚造,1971年11月22日,二層,一層 二層 陽台 平台 屋頂突出物
+18,RPTOMLRKNHOFFAO17CA,21.0,193.39,住家用,鋼筋混凝土造,1987年5月31日,十六層,十五層 十六層 見其他登記事項
+19,RPTOMLRKNHOFFAO17CA,21.0,35.47,共有部分,鋼筋混凝土造,1987年5月31日,十六層,nan
+20,RPTOMLRKNHOFFAO17CA,21.0,36.95,共有部分,鋼筋混凝土造,1987年5月31日,十六層,nan
+21,RPVPMLNJOHOFFAO07CA,nan,82.71,集合住宅,鋼筋混凝土造,108年3月22日,八層,七層 陽台
+22,RPVPMLNJOHOFFAO07CA,nan,71.68,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+23,RPWPMLNJOHOFFAO17CA,nan,67.1,集合住宅,鋼筋混凝土造,108年3月22日,八層,三層 陽台
+24,RPWPMLNJOHOFFAO17CA,nan,64.41,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+25,RPXPMLNJOHOFFAO27CA,nan,67.1,集合住宅,鋼筋混凝土造,108年3月22日,八層,七層 陽台
+26,RPXPMLNJOHOFFAO27CA,nan,64.41,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+27,RPOQMLNJOHOFFAO09CA,nan,67.1,集合住宅,鋼筋混凝土造,108年3月22日,八層,八層 陽台
+28,RPOQMLNJOHOFFAO09CA,nan,64.41,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+29,RPPQMLNJOHOFFAO56CA,nan,64.95,集合住宅,鋼筋混凝土造,108年3月22日,八層,六層 陽台
+30,RPPQMLNJOHOFFAO56CA,nan,63.38,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+31,RPQQMLNJOHOFFAO66CA,nan,87.42,集合住宅,鋼筋混凝土造,108年3月22日,八層,三層 陽台
+32,RPQQMLNJOHOFFAO66CA,nan,73.91,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+33,RPRQMLNJOHOFFAO76CA,nan,87.42,集合住宅,鋼筋混凝土造,108年3月22日,八層,四層 陽台
+34,RPRQMLNJOHOFFAO76CA,nan,73.91,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+35,RPSQMLNJOHOFFAO86CA,nan,64.62,集合住宅,鋼筋混凝土造,108年3月22日,八層,八層 陽台
+36,RPSQMLNJOHOFFAO86CA,nan,63.19,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+37,RPTQMLNJOHOFFAO96CA,nan,64.95,集合住宅,鋼筋混凝土造,108年3月22日,八層,六層 陽台
+38,RPTQMLNJOHOFFAO96CA,nan,63.38,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+39,RPUQMLNJOHOFFAO07CA,nan,87.7,集合住宅,鋼筋混凝土造,108年3月22日,八層,六層 陽台
+40,RPUQMLNJOHOFFAO07CA,nan,74.01,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+41,RPOOMLQLNHOFFAO66CA,8.0,132.77,一般辦公室,鋼筋混凝土造,100年7月18日,十四層,一層 雨遮 見其他登記事項
+42,RPOOMLQLNHOFFAO66CA,8.0,19.33,共有部分,鋼筋混凝土造,100年7月18日,十四層,nan
+43,RPOOMLQLNHOFFAO66CA,8.0,34.67,共有部分,鋼筋混凝土造,100年7月18日,十四層,nan
+44,RPOOMLQLNHOFFAO66CA,8.0,0.02,守衛室,鋼筋混凝土造,100年7月18日,十四層,一層
+45,RPOOMLQLNHOFFAO66CA,8.0,0.0,共有部分,鋼筋混凝土造,100年7月18日,十四層,nan
+46,RPOOMLQLNHOFFAO66CA,8.0,33.21,共有部分,鋼筋混凝土造,100年7月18日,十四層,nan
+47,RPWPMLRKNHOFFAO67DA,nan,161.22,住商用,鋼筋混凝土造,nan,五層,一層 二層 陽台 騎樓
+48,RPWPMLLLNHOFFAO07CA,38.0,82.2,住商用,鋼筋混凝土造,1969年11月7日,七層,一層 騎樓
+49,RPSSMLRKOHOFFAO57CA,nan,284.0,商業用,加強磚造,nan,三層,一層 二層 三層 騎樓
+50,RPSSMLRKOHOFFAO57CA,nan,284.0,商業用,加強磚造,nan,三層,一層 二層 三層 騎樓
+51,RPUSMLRKOHOFFAO77CA,nan,882.0,商業用,加強磚造,nan,三層,一層 二層 三層 騎樓
+52,RPRQMLPJOHOFFAO96CA,5.0,53.67,辦公室,鋼筋混凝土造,103年3月12日,九層,六層 陽台 雨遮 見其他登記事項
+53,RPRQMLPJOHOFFAO96CA,5.0,52.32,共有部分,鋼筋混凝土造,103年3月12日,九層,nan
+54,RPSOMLMLNHOFFAO66CA,nan,25.86,住家用,加強磚造,nan,二層,一層 二層
+55,RPQNMLTKOHOFFAO07CA,48.0,136.56,住家用,加強磚造,1960年10月12日,二層,一層 二層 騎樓
+56,RPQNMLPLNHOFFAO66CA,16.0,0.05,管理室,鋼筋混凝土造,1992年1月10日,十三層,一層
+57,RPQNMLPLNHOFFAO66CA,16.0,17.79,停車空間、機械室、騎樓、梯間、車道、防空避難室,鋼筋混凝土造,1992年1月10日,十三層,nan
+58,RPWNMLLLOHOFFAO96CA,4.0,186.39,店舖、集合住宅、樓梯間,鋼筋混凝土造,103年12月20日,二十三層,一層 二層 陽台 見其他登記事項
+59,RPWNMLLLOHOFFAO96CA,4.0,154.31,共有部分,鋼筋混凝土造,103年12月20日,二十三層,nan
+60,RPXNMLLKOHOFFAO96CA,28.0,235.91,住家用,鋼筋混凝土造,1980年6月20日,二層,一層 二層 陽台 屋頂突出物
+61,RPRNMLQKOHOFFAO86CA,4.0,367.56,農舍、樓梯間,鋼骨造,104年4月7日,三層,一層 二層 三層 陽台 見其他登記事項
+62,RPUOMLLMNHOFFAO86CA,30.0,165.99,住家用,鋼筋混凝土造,1977年12月14日,五層,一層 二層 三層 陽台
+63,RPUOMLLMNHOFFAO86CA,30.0,29.36,共有部分,鋼筋混凝土造,1977年12月14日,五層,nan
+64,RPTRMLPLOHOFFAO47CA,nan,112.0,住家用,加強磚造,nan,二層,一層 二層
+65,RPSPMLKMNHOFFAO66CA,nan,87.83,集合住宅,鋼筋混凝土造,108年3月22日,八層,七層 陽台
+66,RPSPMLKMNHOFFAO66CA,nan,74.1,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+67,RPTPMLKMNHOFFAO76CA,nan,87.7,集合住宅,鋼筋混凝土造,108年3月22日,八層,七層 陽台
+68,RPTPMLKMNHOFFAO76CA,nan,74.01,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+69,RPUPMLKMNHOFFAO86CA,nan,87.7,集合住宅,鋼筋混凝土造,108年3月22日,八層,五層 陽台
+70,RPUPMLKMNHOFFAO86CA,nan,74.01,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+71,RPVPMLKMNHOFFAO96CA,nan,82.71,集合住宅,鋼筋混凝土造,108年3月22日,八層,六層 陽台
+72,RPVPMLKMNHOFFAO96CA,nan,71.68,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+73,RPXUMLTLNHOFFAO48CA,43.0,118.18,商業用,加強磚造,1965年1月26日,四層,四層
+74,RPXNMLLMNHOFFAO07CA,39.0,97.02,住商用,鋼筋混凝土造,1968年12月10日,四層,一層 二層 三層 四層 騎樓 地下層
+75,RPPTMLNKOHOFFAO96CA,30.0,102.59,住商用,鋼筋混凝土造,1978年8月15日,七層,一層 二層 陽台 騎樓
+76,RPPTMLNKOHOFFAO96CA,nan,15.17,共有部分,鋼筋混凝土造,nan,七層,nan
+77,RPPTMLNKOHOFFAO96CA,30.0,11.48,共有部分,鋼筋混凝土造,1978年8月15日,七層,nan
+78,RPPNMLOJOHOFFAO98CA,38.0,107.3,住家用,加強磚造,1970年6月3日,二層,一層 二層
+79,RPXPMLOJOHOFFAO37CA,47.0,372.8,住家用,加強磚造,1961年2月12日,二層,一層 二層
+80,RPPNMLKKPHOFFAO78CA,23.0,549.72,住家用,鋼筋混凝土造,1985年8月22日,七層,一層 二層 三層 陽台
+81,RPPNMLKKPHOFFAO78CA,23.0,112.69,共有部分,鋼筋混凝土造,1985年8月22日,七層,nan
+82,RPQPMLLKOHOFFAO09CA,1.0,87.9,集合住宅,鋼筋混凝土造,107年3月9日,十一層,二層 陽台
+83,RPQPMLLKOHOFFAO09CA,1.0,13.92,共有部分,鋼筋混凝土造,107年3月9日,十一層,nan
+84,RPQPMLLKOHOFFAO09CA,1.0,59.49,共有部分,鋼筋混凝土造,107年3月9日,十一層,nan
+85,RPPNMLNKOHOFFAO98CA,nan,50.26,住家用,鋼筋混凝土造,nan,五層,三層 陽台
+86,RPPNMLNKOHOFFAO98CA,34.0,10.88,共有部分,鋼筋混凝土造,1974年7月12日,五層,nan
+87,RPOSMLRKOHOFFAO17CA,25.0,94.6,住家用,鋼筋混凝土造,1983年10月28日,十二層,六層 七層 陽台
+88,RPOSMLRKOHOFFAO17CA,25.0,7.71,共有部分,鋼筋混凝土造,1983年10月28日,十二層,nan
+89,RPOSMLRKOHOFFAO17CA,25.0,11.29,共有部分,鋼筋混凝土造,1983年10月28日,十二層,nan
+90,RPXNMLTKOHOFFAO77CA,5.0,75.27,騎樓、店舖、停車空間,鋼筋混凝土造,103年11月20日,五層,一層 騎樓 見其他登記事項
+91,RPXNMLTKOHOFFAO77CA,5.0,24.77,共有部分,鋼筋混凝土造,103年11月20日,五層,nan
+92,RPSQMLQJOHOFFAO17CA,nan,87.83,集合住宅,鋼筋混凝土造,108年3月22日,八層,五層 陽台
+93,RPSQMLQJOHOFFAO17CA,nan,74.1,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+94,RPTQMLQJOHOFFAO27CA,nan,87.7,集合住宅,鋼筋混凝土造,108年3月22日,八層,五層 陽台
+95,RPTQMLQJOHOFFAO27CA,nan,74.01,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+96,RPUQMLQJOHOFFAO37CA,nan,87.7,集合住宅,鋼筋混凝土造,108年3月22日,八層,二層 陽台
+97,RPUQMLQJOHOFFAO37CA,nan,74.01,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+98,RPUNMLSKOHOFFAO37CA,25.0,106.01,住家用,鋼筋混凝土造,1983年5月4日,七層,六層 陽台
+99,RPUNMLSKOHOFFAO37CA,25.0,22.42,共有部分,鋼筋混凝土造,1983年5月4日,七層,nan
+100,RPUNMLSKOHOFFAO37CA,25.0,13.45,共有部分,鋼筋混凝土造,1983年5月4日,七層,nan
+101,RPTNMLTJOHOFFAO27CA,43.0,92.7,住家用,加強磚造,1965年3月19日,二層,一層 二層
+102,RPTSMLTKPHOFFAO18EA,54.0,18.78,住家用,木石磚造（磚石造）,1954年6月15日,一層,一層
+103,RPVOMLNKJIOFFAO86EA,2.0,74.21,店舖、停車空間,鋼筋混凝土造,106年6月9日,十二層,一層 騎樓 見其他登記事項
+104,RPVOMLNKJIOFFAO86EA,2.0,64.01,共有部分,鋼筋混凝土造,106年6月9日,十二層,nan
+105,RPUNMLQKOHOFFAO17CA,10.0,129.16,集合住宅,鋼筋混凝土造,1998年6月4日,十一層,十一層 陽台 雨遮 見其他登記事項
+106,RPUNMLQKOHOFFAO17CA,10.0,16.99,開放空間、梯間、機械室、水箱,鋼筋混凝土造,1998年6月4日,十一層,nan
+107,RPUNMLQKOHOFFAO17CA,10.0,33.25,防空避難室兼停車空間,鋼筋混凝土造,1998年6月4日,十一層,nan
+108,RPUNMLQKOHOFFAO17CA,10.0,0.0,開放空間、梯間、機械室、水箱,鋼筋混凝土造,1998年6月4日,十一層,nan
+109,RPUNMLQKOHOFFAO17CA,10.0,0.27,管委會,鋼筋混凝土造,1998年6月4日,十一層,一層 雨遮
+110,RPUNMLQKOHOFFAO17CA,10.0,18.8,防空避難室兼停車空間,鋼筋混凝土造,1998年6月4日,十一層,nan
+111,RPSNMLKLOHOFFAO09CA,nan,221.88,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 陽台 雨遮 見其他登記事項
+112,RPSNMLKLOHOFFAO09CA,nan,0.15,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+113,RPSPMLTKOHOFFAO47CA,27.0,172.24,見使用執照,鋼筋混凝土造,1980年12月31日,十二層,十二層 陽台
+114,RPSPMLTKOHOFFAO47CA,27.0,40.79,共有部分,鋼筋混凝土造,1980年12月31日,十二層,nan
+115,RPSPMLTKOHOFFAO47CA,27.0,18.34,共有部分,鋼筋混凝土造,1980年12月31日,0,nan
+116,RPSPMLTKOHOFFAO47CA,27.0,110.21,見使用執照,鋼筋混凝土造,1980年12月31日,十二層,十二層 陽台
+117,RPSPMLTKOHOFFAO47CA,27.0,22.51,共有部分,鋼筋混凝土造,1980年12月31日,十二層,nan
+118,RPPNMLNJOHOFFAO56CD,25.0,104.42,住家用,鋼筋混凝土造,1983年7月29日,七層,五層 陽台 花台
+119,RPPNMLNJOHOFFAO56CD,25.0,41.28,共有部分,鋼筋混凝土造,1983年7月29日,七層,nan
+120,RPSPMLSLOHOFFAO47CA,9.0,84.18,集合住宅,鋼筋混凝土造,1999年8月9日,十五層,二層 陽台 雨遮
+121,RPSPMLSLOHOFFAO47CA,9.0,18.14,共有部分,鋼筋混凝土造,1999年8月9日,十五層,nan
+122,RPSPMLSLOHOFFAO47CA,9.0,70.23,共有部分,鋼筋混凝土造,1999年8月9日,十五層,nan
+123,RPRRMLOKOHOFFAO07CA,22.0,196.34,住家用,鋼筋混凝土造,1985年11月14日,二十一層,二十層 二十一層 陽台 花台
+124,RPRRMLOKOHOFFAO07CA,22.0,34.98,共有部分,鋼筋混凝土造,1985年11月14日,二十一層,nan
+125,RPRRMLOKOHOFFAO07CA,22.0,1.33,共有部分,鋼筋混凝土造,1985年11月14日,二十一層,nan
+126,RPRRMLOKOHOFFAO07CA,22.0,36.5,共有部分,鋼筋混凝土造,1985年11月14日,二十一層,nan
+127,RPXOMLSLOHOFFAO87CA,25.0,170.24,住商用,鋼筋混凝土造,1983年7月19日,八層,一層 平台 騎樓 夾層
+128,RPXOMLSLOHOFFAO87CA,25.0,35.44,共有部分,鋼筋混凝土造,1983年7月19日,八層,nan
+129,RPXOMLSLOHOFFAO87CA,25.0,15.3,見使用執照,鋼筋混凝土造,1983年7月19日,八層,nan
+130,RPUQMLOJPHOFFAO27CA,9.0,214.76,停車空間、集合住宅,鋼筋混凝土造,1999年2月3日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+131,RPPRMLMJPHOFFAO66CA,12.0,27.6,辦公室,鋼筋混凝土造,1996年10月1日,八層,六層 陽台
+132,RPPRMLMJPHOFFAO66CA,12.0,15.98,防空避難室兼停車空間、辦公室,鋼筋混凝土造,1996年10月1日,八層,nan
+133,RPSOMLKLOHOFFAO56CA,9.0,174.42,停車空間、住宅,鋼筋混凝土造,1999年5月10日,四層,一層 二層 三層 四層 陽台
+134,RPSOMLOLOHOFFAO07DA,37.0,292.78,住商用,鋼筋混凝土造,1970年12月23日,六層,一層 二層 三層 四層 五層 六層 騎樓 地下層
+135,RPSNMLSLOHOFFAO27CA,7.0,177.01,集合住宅、停車空間,鋼筋混凝土造,101年11月26日,四層,一層 二層 三層 四層 陽台 雨遮
+136,RPVNMLOJPHOFFAO07CA,38.0,92.76,住家用,加強磚造,1970年6月25日,二層,一層 二層
+137,RPRNMLOLOHOFFAO76CA,nan,73.97,店舖,鋼筋混凝土造,108年2月1日,十四層,一層 陽台 見其他登記事項
+138,RPRNMLOLOHOFFAO76CA,nan,27.2,共有部分,鋼筋混凝土造,108年2月1日,十四層,nan
+139,RPOQMLSLOHOFFAO17CA,18.0,191.58,住家用,鋼筋混凝土造,1989年10月26日,十四層,十三層 十四層 陽台 雨遮
+140,RPOQMLSLOHOFFAO17CA,18.0,0.67,住家用,鋼筋混凝土造,1989年10月26日,十四層,一層 陽台 雨遮
+141,RPOQMLSLOHOFFAO17CA,18.0,38.9,共有部分,鋼筋混凝土造,1989年10月26日,十四層,nan
+142,RPOQMLSLOHOFFAO17CA,18.0,8.81,共有部分,鋼筋混凝土造,1989年10月26日,十四層,nan
+143,RPOQMLSLOHOFFAO17CA,18.0,38.87,共有部分,鋼筋混凝土造,1989年10月26日,十四層,nan
+144,RPXNMLPJPHOFFAO37CA,22.0,363.92,商業用,鋼筋混凝土造,1986年10月5日,十三層,一層 騎樓 地下一層
+145,RPXNMLPJPHOFFAO37CA,22.0,0.03,共有部分,鋼筋混凝土造,1986年10月5日,十三層,nan
+146,RPXNMLPJPHOFFAO37CA,22.0,166.03,共有部分,鋼筋混凝土造,1986年10月5日,十三層,nan
+147,RPSPMLOLOHOFFAO07CA,22.0,172.97,住商用,鋼筋混凝土造,1986年8月11日,二層,一層 二層 陽台 平台 屋頂突出物 騎樓
+148,RPTPMLMLOHOFFAO96CA,23.0,308.76,住家用,鋼筋混凝土造,1985年2月14日,十八層,十七層 十八層 陽台 露台 花台
+149,RPTPMLMLOHOFFAO96CA,23.0,56.75,共有部分,鋼筋混凝土造,1985年2月14日,十八層,nan
+150,RPTPMLMLOHOFFAO96CA,23.0,59.71,共有部分,鋼筋混凝土造,1985年2月14日,十八層,nan
+151,RPVQMLRKPHOFFAO77CA,nan,43.96,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+152,RPVQMLRKPHOFFAO77CA,nan,89.47,店舖,鋼筋混凝土造,108年3月27日,七層,一層 陽台 見其他登記事項
+153,RPVQMLRKPHOFFAO77CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+154,RPQRMLRKPHOFFAO37CA,nan,66.42,店舖,鋼筋混凝土造,108年3月27日,七層,一層 陽台 見其他登記事項
+155,RPQRMLRKPHOFFAO37CA,nan,32.62,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+156,RPQRMLRKPHOFFAO37CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+157,RPXNMLSKPHOFFAO77CA,nan,64.65,集合住宅,鋼筋混凝土造,108年3月27日,七層,二層 陽台
+158,RPXNMLSKPHOFFAO77CA,nan,31.75,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+159,RPXNMLSKPHOFFAO77CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+160,RPPNMLTKPHOFFAO07CA,nan,86.84,集合住宅,鋼筋混凝土造,108年3月27日,七層,二層 陽台
+161,RPPNMLTKPHOFFAO07CA,nan,42.87,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+162,RPPNMLTKPHOFFAO07CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+163,RPQNMLTKPHOFFAO17CA,nan,47.77,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+164,RPQNMLTKPHOFFAO17CA,nan,96.05,集合住宅,鋼筋混凝土造,108年3月27日,七層,二層 陽台
+165,RPQNMLTKPHOFFAO17CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+166,RPXOMLTKPHOFFAO97CA,nan,49.34,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+167,RPXOMLTKPHOFFAO97CA,nan,99.14,集合住宅,鋼筋混凝土造,108年3月27日,七層,二層 陽台
+168,RPXOMLTKPHOFFAO97CA,nan,31.42,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+169,RPQPMLTKPHOFFAO37CA,nan,45.17,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+170,RPQPMLTKPHOFFAO37CA,nan,90.75,集合住宅,鋼筋混凝土造,108年3月27日,七層,二層 陽台
+171,RPQPMLTKPHOFFAO37CA,nan,31.15,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+172,RPRPMLTKPHOFFAO47CA,nan,93.2,集合住宅,鋼筋混凝土造,108年3月27日,七層,二層 陽台
+173,RPRPMLTKPHOFFAO47CA,nan,46.11,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+174,RPRPMLTKPHOFFAO47CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+175,RPSPMLTKPHOFFAO57CA,nan,103.57,集合住宅,鋼筋混凝土造,108年3月27日,七層,二層 陽台
+176,RPSPMLTKPHOFFAO57CA,nan,51.13,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+177,RPSPMLTKPHOFFAO57CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+178,RPTPMLTKPHOFFAO67CA,nan,64.65,集合住宅,鋼筋混凝土造,108年3月27日,七層,三層 陽台
+179,RPTPMLTKPHOFFAO67CA,nan,31.75,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+180,RPTPMLTKPHOFFAO67CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+181,RPUPMLTKPHOFFAO77CA,nan,64.93,集合住宅,鋼筋混凝土造,108年3月27日,七層,三層 陽台
+182,RPUPMLTKPHOFFAO77CA,nan,31.75,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+183,RPUPMLTKPHOFFAO77CA,nan,64.99,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+184,RPVPMLTKPHOFFAO87CA,nan,65.55,集合住宅,鋼筋混凝土造,108年3月27日,七層,三層 陽台
+185,RPVPMLTKPHOFFAO87CA,nan,32.26,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+186,RPVPMLTKPHOFFAO87CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+187,RPWPMLTKPHOFFAO97CA,nan,64.97,集合住宅,鋼筋混凝土造,108年3月27日,七層,三層 陽台
+188,RPWPMLTKPHOFFAO97CA,nan,32.26,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+189,RPWPMLTKPHOFFAO97CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+190,RPQQMLTKPHOFFAO47CA,nan,85.61,集合住宅,鋼筋混凝土造,108年3月27日,七層,三層 陽台
+191,RPQQMLTKPHOFFAO47CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+192,RPQQMLTKPHOFFAO47CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+193,RPSQMLTKPHOFFAO67CA,nan,85.59,集合住宅,鋼筋混凝土造,108年3月27日,七層,三層 陽台
+194,RPSQMLTKPHOFFAO67CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+195,RPSQMLTKPHOFFAO67CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+196,RPTQMLTKPHOFFAO77CA,nan,85.59,集合住宅,鋼筋混凝土造,108年3月27日,七層,三層 陽台
+197,RPTQMLTKPHOFFAO77CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+198,RPTQMLTKPHOFFAO77CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+199,RPUQMLTKPHOFFAO87CA,nan,85.61,集合住宅,鋼筋混凝土造,108年3月27日,七層,三層 陽台
+200,RPUQMLTKPHOFFAO87CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+201,RPUQMLTKPHOFFAO87CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+202,RPVQMLTKPHOFFAO97CA,nan,83.86,集合住宅,鋼筋混凝土造,108年3月27日,七層,三層 陽台
+203,RPVQMLTKPHOFFAO97CA,nan,41.54,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+204,RPVQMLTKPHOFFAO97CA,nan,31.42,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+205,RPXQMLTKPHOFFAO18CA,nan,86.3,集合住宅,鋼筋混凝土造,108年3月27日,七層,三層 陽台
+206,RPXQMLTKPHOFFAO18CA,nan,42.48,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+207,RPXQMLTKPHOFFAO18CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+208,RPORMLTKPHOFFAO37CA,nan,91.82,集合住宅,鋼筋混凝土造,108年3月27日,七層,三層 陽台
+209,RPORMLTKPHOFFAO37CA,nan,45.05,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+210,RPORMLTKPHOFFAO37CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+211,RPPRMLTKPHOFFAO47CA,nan,64.65,集合住宅,鋼筋混凝土造,108年3月27日,七層,四層 陽台
+212,RPPRMLTKPHOFFAO47CA,nan,31.75,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+213,RPPRMLTKPHOFFAO47CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+214,RPQRMLTKPHOFFAO57CA,nan,65.55,集合住宅,鋼筋混凝土造,108年3月27日,七層,四層 陽台
+215,RPQRMLTKPHOFFAO57CA,nan,32.26,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+216,RPQRMLTKPHOFFAO57CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+217,RPRRMLTKPHOFFAO67CA,nan,64.97,集合住宅,鋼筋混凝土造,108年3月27日,七層,四層 陽台
+218,RPRRMLTKPHOFFAO67CA,nan,32.26,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+219,RPRRMLTKPHOFFAO67CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+220,RPVRMLTKPHOFFAO08CA,nan,85.61,集合住宅,鋼筋混凝土造,108年3月27日,七層,四層 陽台
+221,RPVRMLTKPHOFFAO08CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+222,RPVRMLTKPHOFFAO08CA,nan,66.87,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+223,RPWRMLTKPHOFFAO18CA,nan,85.59,集合住宅,鋼筋混凝土造,108年3月27日,七層,四層 陽台
+224,RPWRMLTKPHOFFAO18CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+225,RPWRMLTKPHOFFAO18CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+226,RPXRMLTKPHOFFAO28CA,nan,85.59,集合住宅,鋼筋混凝土造,108年3月27日,七層,四層 陽台
+227,RPXRMLTKPHOFFAO28CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+228,RPXRMLTKPHOFFAO28CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+229,RPOSMLTKPHOFFAO47CA,nan,85.61,集合住宅,鋼筋混凝土造,108年3月27日,七層,四層 陽台
+230,RPOSMLTKPHOFFAO47CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+231,RPOSMLTKPHOFFAO47CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+232,RPPSMLTKPHOFFAO57CA,nan,83.86,集合住宅,鋼筋混凝土造,108年3月27日,七層,四層 陽台
+233,RPPSMLTKPHOFFAO57CA,nan,41.54,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+234,RPPSMLTKPHOFFAO57CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+235,RPQSMLTKPHOFFAO67CA,nan,86.3,集合住宅,鋼筋混凝土造,108年3月27日,七層,四層 陽台
+236,RPQSMLTKPHOFFAO67CA,nan,42.48,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+237,RPQSMLTKPHOFFAO67CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+238,RPVSMLTKPHOFFAO18CA,nan,64.65,集合住宅,鋼筋混凝土造,108年3月27日,七層,五層 陽台
+239,RPVSMLTKPHOFFAO18CA,nan,31.75,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+240,RPVSMLTKPHOFFAO18CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+241,RPWSMLTKPHOFFAO28CA,nan,64.93,集合住宅,鋼筋混凝土造,108年3月27日,七層,五層 陽台
+242,RPWSMLTKPHOFFAO28CA,nan,31.75,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+243,RPWSMLTKPHOFFAO28CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+244,RPXSMLTKPHOFFAO38CA,nan,65.55,集合住宅,鋼筋混凝土造,108年3月27日,七層,五層 陽台
+245,RPXSMLTKPHOFFAO38CA,nan,32.26,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+246,RPXSMLTKPHOFFAO38CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+247,RPRNMLKLPHOFFAO09CA,nan,85.61,集合住宅,鋼筋混凝土造,108年3月27日,七層,五層 陽台
+248,RPRNMLKLPHOFFAO09CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+249,RPRNMLKLPHOFFAO09CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+250,RPSNMLKLPHOFFAO56CA,nan,83.86,集合住宅,鋼筋混凝土造,108年3月27日,七層,五層 陽台
+251,RPSNMLKLPHOFFAO56CA,nan,41.54,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+252,RPSNMLKLPHOFFAO56CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+253,RPTNMLKLPHOFFAO66CA,nan,86.3,集合住宅,鋼筋混凝土造,108年3月27日,七層,五層 陽台
+254,RPTNMLKLPHOFFAO66CA,nan,42.48,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+255,RPTNMLKLPHOFFAO66CA,nan,64.99,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+256,RPUNMLKLPHOFFAO76CA,nan,91.82,集合住宅,鋼筋混凝土造,108年3月27日,七層,五層 陽台
+257,RPUNMLKLPHOFFAO76CA,nan,45.05,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+258,RPUNMLKLPHOFFAO76CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+259,RPVNMLKLPHOFFAO86CA,nan,64.65,集合住宅,鋼筋混凝土造,108年3月27日,七層,六層 陽台
+260,RPVNMLKLPHOFFAO86CA,nan,31.75,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+261,RPVNMLKLPHOFFAO86CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+262,RPWNMLKLPHOFFAO96CA,nan,64.93,集合住宅,鋼筋混凝土造,108年3月27日,七層,六層 陽台
+263,RPWNMLKLPHOFFAO96CA,nan,31.75,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+264,RPWNMLKLPHOFFAO96CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+265,RPXNMLKLPHOFFAO07CA,nan,65.55,集合住宅,鋼筋混凝土造,108年3月27日,七層,六層 陽台
+266,RPXNMLKLPHOFFAO07CA,nan,32.26,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+267,RPXNMLKLPHOFFAO07CA,nan,33.84,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+268,RPOOMLKLPHOFFAO88CA,nan,64.97,集合住宅,鋼筋混凝土造,108年3月27日,七層,六層 陽台
+269,RPOOMLKLPHOFFAO88CA,nan,32.26,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+270,RPOOMLKLPHOFFAO88CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+271,RPPOMLKLPHOFFAO98CA,nan,85.61,集合住宅,鋼筋混凝土造,108年3月27日,七層,六層 陽台
+272,RPPOMLKLPHOFFAO98CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+273,RPPOMLKLPHOFFAO98CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+274,RPQOMLKLPHOFFAO09CA,nan,85.59,集合住宅,鋼筋混凝土造,108年3月27日,七層,六層 陽台
+275,RPQOMLKLPHOFFAO09CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+276,RPQOMLKLPHOFFAO09CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+277,RPROMLKLPHOFFAO56CA,nan,85.59,集合住宅,鋼筋混凝土造,108年3月27日,七層,六層 陽台
+278,RPROMLKLPHOFFAO56CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+279,RPROMLKLPHOFFAO56CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+280,RPPNMLLLPHOFFAO98CA,nan,85.61,集合住宅,鋼筋混凝土造,108年3月27日,七層,六層 陽台
+281,RPPNMLLLPHOFFAO98CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+282,RPPNMLLLPHOFFAO98CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+283,RPQNMLLLPHOFFAO09CA,nan,83.86,集合住宅,鋼筋混凝土造,108年3月27日,七層,六層 陽台
+284,RPQNMLLLPHOFFAO09CA,nan,41.54,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+285,RPQNMLLLPHOFFAO09CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+286,RPRNMLLLPHOFFAO56CA,nan,86.3,集合住宅,鋼筋混凝土造,108年3月27日,七層,六層 陽台
+287,RPRNMLLLPHOFFAO56CA,nan,42.48,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+288,RPRNMLLLPHOFFAO56CA,nan,64.99,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+289,RPTNMLLLPHOFFAO76CA,nan,64.65,集合住宅,鋼筋混凝土造,108年3月27日,七層,七層 陽台
+290,RPTNMLLLPHOFFAO76CA,nan,31.75,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+291,RPTNMLLLPHOFFAO76CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+292,RPUNMLLLPHOFFAO86CA,nan,64.93,集合住宅,鋼筋混凝土造,108年3月27日,七層,七層 陽台
+293,RPUNMLLLPHOFFAO86CA,nan,31.75,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+294,RPUNMLLLPHOFFAO86CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+295,RPVNMLLLPHOFFAO96CA,nan,65.55,集合住宅,鋼筋混凝土造,108年3月27日,七層,七層 陽台
+296,RPVNMLLLPHOFFAO96CA,nan,32.26,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+297,RPVNMLLLPHOFFAO96CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+298,RPWNMLLLPHOFFAO07CA,nan,85.61,集合住宅,鋼筋混凝土造,108年3月27日,七層,七層 陽台
+299,RPWNMLLLPHOFFAO07CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+300,RPWNMLLLPHOFFAO07CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+301,RPXNMLLLPHOFFAO17CA,nan,85.59,集合住宅,鋼筋混凝土造,108年3月27日,七層,七層 陽台
+302,RPXNMLLLPHOFFAO17CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+303,RPXNMLLLPHOFFAO17CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+304,RPOOMLLLPHOFFAO98CA,nan,85.59,集合住宅,鋼筋混凝土造,108年3月27日,七層,七層 陽台
+305,RPOOMLLLPHOFFAO98CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+306,RPOOMLLLPHOFFAO98CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+307,RPQOMLLLPHOFFAO56CA,nan,85.61,集合住宅,鋼筋混凝土造,108年3月27日,七層,七層 陽台
+308,RPQOMLLLPHOFFAO56CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+309,RPQOMLLLPHOFFAO56CA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+310,RPROMLLLPHOFFAO66CA,nan,83.86,集合住宅,鋼筋混凝土造,108年3月27日,七層,七層 陽台
+311,RPROMLLLPHOFFAO66CA,nan,41.54,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+312,RPROMLLLPHOFFAO66CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+313,RPSOMLLLPHOFFAO76CA,nan,86.3,集合住宅,鋼筋混凝土造,108年3月27日,七層,七層 陽台
+314,RPSOMLLLPHOFFAO76CA,nan,42.48,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+315,RPSOMLLLPHOFFAO76CA,nan,64.45,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+316,RPWTMLTKPHOFFAO38CA,nan,64.97,集合住宅,鋼筋混凝土造,108年3月27日,七層,五層 陽台
+317,RPWTMLTKPHOFFAO38CA,nan,32.26,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+318,RPWTMLTKPHOFFAO38CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+319,RPOUMLTKPHOFFAO67CA,nan,85.61,集合住宅,鋼筋混凝土造,108年3月27日,七層,五層 陽台
+320,RPOUMLTKPHOFFAO67CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+321,RPOUMLTKPHOFFAO67CA,nan,63.38,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+322,RPQUMLTKPHOFFAO87CA,nan,85.59,集合住宅,鋼筋混凝土造,108年3月27日,七層,五層 陽台
+323,RPQUMLTKPHOFFAO87CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+324,RPQUMLTKPHOFFAO87CA,nan,64.99,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+325,RPSUMLTKPHOFFAO08CA,nan,85.59,集合住宅,鋼筋混凝土造,108年3月27日,七層,五層 陽台
+326,RPSUMLTKPHOFFAO08CA,nan,42.27,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+327,RPSUMLTKPHOFFAO08CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+328,RPTOMLSLJIOFFAO27EA,nan,51.46,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+329,RPTOMLSLJIOFFAO27EA,nan,103.41,集合住宅,鋼筋混凝土造,108年3月27日,七層,二層 陽台
+330,RPTOMLSLJIOFFAO27EA,nan,32.5,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+331,RPUOMLSLJIOFFAO37EA,nan,91.82,集合住宅,鋼筋混凝土造,108年3月27日,七層,六層 陽台
+332,RPUOMLSLJIOFFAO37EA,nan,45.05,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+333,RPUOMLSLJIOFFAO37EA,nan,64.99,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+334,RPPSNLNLPHOFFAO17CA,nan,71.54,店舖,鋼筋混凝土造,108年3月27日,七層,一層 陽台 見其他登記事項
+335,RPPSNLNLPHOFFAO17CA,nan,35.01,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+336,RPPSNLNLPHOFFAO17CA,nan,31.15,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+337,RPQSNLNLPHOFFAO27CA,nan,64.93,集合住宅,鋼筋混凝土造,108年3月27日,七層,二層 陽台
+338,RPQSNLNLPHOFFAO27CA,nan,31.75,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+339,RPQSNLNLPHOFFAO27CA,nan,32.23,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+340,RPRSNLNLPHOFFAO37CA,nan,91.82,集合住宅,鋼筋混凝土造,108年3月27日,七層,四層 陽台
+341,RPRSNLNLPHOFFAO37CA,nan,45.05,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+342,RPRSNLNLPHOFFAO37CA,nan,64.45,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+343,RPSSNLNLPHOFFAO47CA,nan,91.82,集合住宅,鋼筋混凝土造,108年3月27日,七層,七層 陽台
+344,RPSSNLNLPHOFFAO47CA,nan,45.05,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+345,RPSSNLNLPHOFFAO47CA,nan,64.45,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+346,RPVNMLQKPHOFFAO37CA,21.0,44.66,住宅,鋼筋混凝土造,1987年4月10日,十二層,七層 陽台
+347,RPVNMLQKPHOFFAO37CA,21.0,9.21,國民住宅、突出物、梯間,鋼筋混凝土造,1987年4月10日,十二層,nan
+348,RPVNMLQKPHOFFAO37CA,21.0,11.14,國民住宅、地下室、夾層,鋼筋混凝土造,1987年4月10日,十二層,nan
+349,RPVNMLQKPHOFFAO37CA,21.0,0.15,店舖,鋼筋混凝土造,1987年4月10日,十二層,一層 陽台
+350,RPVNMLQKPHOFFAO37CA,21.0,0.04,國民住宅、地下室、夾層,鋼筋混凝土造,1987年4月10日,十二層,nan
+351,RPVNMLQKPHOFFAO37CA,21.0,0.1,店舖,鋼筋混凝土造,1987年4月10日,十二層,一層 陽台
+352,RPVNMLQKPHOFFAO37CA,21.0,0.03,國民住宅、突出物、梯間,鋼筋混凝土造,1987年4月10日,十二層,nan
+353,RPVNMLQKPHOFFAO37CA,21.0,0.02,國民住宅、突出物、梯間,鋼筋混凝土造,1987年4月10日,十二層,nan
+354,RPVNMLQKPHOFFAO37CA,21.0,0.03,國民住宅、地下室、夾層,鋼筋混凝土造,1987年4月10日,十二層,nan
+355,RPTPMLQKPHOFFAO37CA,nan,93.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,七層 陽台 雨遮
+356,RPTPMLQKPHOFFAO37CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+357,RPTPMLQKPHOFFAO37CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+358,RPTPMLQKPHOFFAO37CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+359,RPTPMLQKPHOFFAO37CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+360,RPTPMLQKPHOFFAO37CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+361,RPTPMLQKPHOFFAO37CA,nan,16.55,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+362,RPTPMLQKPHOFFAO37CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+363,RPTPMLQKPHOFFAO37CA,nan,25.43,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+364,RPUPMLQKPHOFFAO47CA,nan,93.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十五層 陽台 雨遮
+365,RPUPMLQKPHOFFAO47CA,nan,16.55,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+366,RPUPMLQKPHOFFAO47CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+367,RPUPMLQKPHOFFAO47CA,nan,25.43,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+368,RPUPMLQKPHOFFAO47CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+369,RPUPMLQKPHOFFAO47CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+370,RPUPMLQKPHOFFAO47CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+371,RPUPMLQKPHOFFAO47CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+372,RPUPMLQKPHOFFAO47CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+373,RPVPMLQKPHOFFAO57CA,nan,93.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十七層 陽台 雨遮
+374,RPVPMLQKPHOFFAO57CA,nan,0.08,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+375,RPVPMLQKPHOFFAO57CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+376,RPVPMLQKPHOFFAO57CA,nan,66.12,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+377,RPVPMLQKPHOFFAO57CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+378,RPVPMLQKPHOFFAO57CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+379,RPVPMLQKPHOFFAO57CA,nan,16.55,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+380,RPVPMLQKPHOFFAO57CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+381,RPVPMLQKPHOFFAO57CA,nan,25.43,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+382,RPWPMLQKPHOFFAO67CA,nan,93.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十八層 陽台 雨遮
+383,RPWPMLQKPHOFFAO67CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+384,RPWPMLQKPHOFFAO67CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+385,RPWPMLQKPHOFFAO67CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+386,RPWPMLQKPHOFFAO67CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+387,RPWPMLQKPHOFFAO67CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+388,RPWPMLQKPHOFFAO67CA,nan,16.55,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+389,RPWPMLQKPHOFFAO67CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+390,RPWPMLQKPHOFFAO67CA,nan,25.43,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+391,RPXPMLQKPHOFFAO77CA,nan,93.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,二十層 陽台 雨遮
+392,RPXPMLQKPHOFFAO77CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+393,RPXPMLQKPHOFFAO77CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+394,RPXPMLQKPHOFFAO77CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+395,RPXPMLQKPHOFFAO77CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+396,RPXPMLQKPHOFFAO77CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+397,RPXPMLQKPHOFFAO77CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+398,RPXPMLQKPHOFFAO77CA,nan,16.55,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+399,RPXPMLQKPHOFFAO77CA,nan,25.43,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+400,RPOQMLQKPHOFFAO96CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十六層 陽台 雨遮
+401,RPOQMLQKPHOFFAO96CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+402,RPOQMLQKPHOFFAO96CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+403,RPOQMLQKPHOFFAO96CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+404,RPOQMLQKPHOFFAO96CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+405,RPOQMLQKPHOFFAO96CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+406,RPOQMLQKPHOFFAO96CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+407,RPOQMLQKPHOFFAO96CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+408,RPOQMLQKPHOFFAO96CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+409,RPPQMLQKPHOFFAO07CA,nan,86.9,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,四層 陽台 雨遮
+410,RPPQMLQKPHOFFAO07CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+411,RPPQMLQKPHOFFAO07CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+412,RPPQMLQKPHOFFAO07CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+413,RPPQMLQKPHOFFAO07CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+414,RPPQMLQKPHOFFAO07CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+415,RPPQMLQKPHOFFAO07CA,nan,15.32,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+416,RPPQMLQKPHOFFAO07CA,nan,5.66,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+417,RPPQMLQKPHOFFAO07CA,nan,23.41,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+418,RPQQMLQKPHOFFAO17CA,nan,91.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十二層 陽台 雨遮
+419,RPQQMLQKPHOFFAO17CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+420,RPQQMLQKPHOFFAO17CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+421,RPQQMLQKPHOFFAO17CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+422,RPQQMLQKPHOFFAO17CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+423,RPQQMLQKPHOFFAO17CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+424,RPQQMLQKPHOFFAO17CA,nan,16.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+425,RPQQMLQKPHOFFAO17CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+426,RPQQMLQKPHOFFAO17CA,nan,25.03,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+427,RPWOMLQKPHOFFAO57CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,八層 陽台 雨遮
+428,RPWOMLQKPHOFFAO57CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+429,RPWOMLQKPHOFFAO57CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+430,RPWOMLQKPHOFFAO57CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+431,RPWOMLQKPHOFFAO57CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+432,RPWOMLQKPHOFFAO57CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+433,RPWOMLQKPHOFFAO57CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+434,RPWOMLQKPHOFFAO57CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+435,RPWOMLQKPHOFFAO57CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+436,RPXOMLQKPHOFFAO67CA,nan,95.27,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,五層 陽台 雨遮
+437,RPXOMLQKPHOFFAO67CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+438,RPXOMLQKPHOFFAO67CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+439,RPXOMLQKPHOFFAO67CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+440,RPXOMLQKPHOFFAO67CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+441,RPXOMLQKPHOFFAO67CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+442,RPXOMLQKPHOFFAO67CA,nan,16.79,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+443,RPXOMLQKPHOFFAO67CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+444,RPXOMLQKPHOFFAO67CA,nan,25.83,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+445,RPTQMLQKPHOFFAO47CA,nan,95.63,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,六層 陽台 雨遮
+446,RPTQMLQKPHOFFAO47CA,nan,16.87,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+447,RPTQMLQKPHOFFAO47CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+448,RPTQMLQKPHOFFAO47CA,nan,26.24,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+449,RPTQMLQKPHOFFAO47CA,nan,0.08,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+450,RPTQMLQKPHOFFAO47CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+451,RPTQMLQKPHOFFAO47CA,nan,66.12,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+452,RPTQMLQKPHOFFAO47CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+453,RPTQMLQKPHOFFAO47CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+454,RPUQMLQKPHOFFAO57CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十二層 陽台 雨遮
+455,RPUQMLQKPHOFFAO57CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+456,RPUQMLQKPHOFFAO57CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+457,RPUQMLQKPHOFFAO57CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+458,RPUQMLQKPHOFFAO57CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,一層 騎樓
+459,RPUQMLQKPHOFFAO57CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+460,RPUQMLQKPHOFFAO57CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+461,RPUQMLQKPHOFFAO57CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+462,RPUQMLQKPHOFFAO57CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+463,RPXNMLMKPHOFFAO17CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,六層 陽台 雨遮
+464,RPXNMLMKPHOFFAO17CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+465,RPXNMLMKPHOFFAO17CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+466,RPXNMLMKPHOFFAO17CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+467,RPXNMLMKPHOFFAO17CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+468,RPXNMLMKPHOFFAO17CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+469,RPXNMLMKPHOFFAO17CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+470,RPXNMLMKPHOFFAO17CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+471,RPXNMLMKPHOFFAO17CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+472,RPOOMLMKPHOFFAO98CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十層 陽台 雨遮
+473,RPOOMLMKPHOFFAO98CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+474,RPOOMLMKPHOFFAO98CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+475,RPOOMLMKPHOFFAO98CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+476,RPOOMLMKPHOFFAO98CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+477,RPOOMLMKPHOFFAO98CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+478,RPOOMLMKPHOFFAO98CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+479,RPOOMLMKPHOFFAO98CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+480,RPOOMLMKPHOFFAO98CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+481,RPPOMLMKPHOFFAO09CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十一層 陽台 雨遮
+482,RPPOMLMKPHOFFAO09CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+483,RPPOMLMKPHOFFAO09CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+484,RPPOMLMKPHOFFAO09CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+485,RPPOMLMKPHOFFAO09CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+486,RPPOMLMKPHOFFAO09CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+487,RPPOMLMKPHOFFAO09CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+488,RPPOMLMKPHOFFAO09CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+489,RPPOMLMKPHOFFAO09CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+490,RPQOMLMKPHOFFAO56CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十二層 陽台 雨遮
+491,RPQOMLMKPHOFFAO56CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+492,RPQOMLMKPHOFFAO56CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+493,RPQOMLMKPHOFFAO56CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+494,RPQOMLMKPHOFFAO56CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+495,RPQOMLMKPHOFFAO56CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+496,RPQOMLMKPHOFFAO56CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+497,RPQOMLMKPHOFFAO56CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+498,RPQOMLMKPHOFFAO56CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+499,RPROMLMKPHOFFAO66CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十五層 陽台 雨遮
+500,RPROMLMKPHOFFAO66CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+501,RPROMLMKPHOFFAO66CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+502,RPROMLMKPHOFFAO66CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+503,RPROMLMKPHOFFAO66CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+504,RPROMLMKPHOFFAO66CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+505,RPROMLMKPHOFFAO66CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+506,RPROMLMKPHOFFAO66CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+507,RPROMLMKPHOFFAO66CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+508,RPSOMLMKPHOFFAO76CA,nan,95.27,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,六層 陽台 雨遮
+509,RPSOMLMKPHOFFAO76CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+510,RPSOMLMKPHOFFAO76CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+511,RPSOMLMKPHOFFAO76CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+512,RPSOMLMKPHOFFAO76CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+513,RPSOMLMKPHOFFAO76CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+514,RPSOMLMKPHOFFAO76CA,nan,16.79,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+515,RPSOMLMKPHOFFAO76CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+516,RPSOMLMKPHOFFAO76CA,nan,25.83,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+517,RPTOMLMKPHOFFAO86CA,nan,95.27,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,七層 陽台 雨遮
+518,RPTOMLMKPHOFFAO86CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+519,RPTOMLMKPHOFFAO86CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+520,RPTOMLMKPHOFFAO86CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+521,RPTOMLMKPHOFFAO86CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+522,RPTOMLMKPHOFFAO86CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+523,RPTOMLMKPHOFFAO86CA,nan,16.79,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+524,RPTOMLMKPHOFFAO86CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+525,RPTOMLMKPHOFFAO86CA,nan,25.83,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+526,RPUOMLMKPHOFFAO96CA,nan,95.27,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十層 陽台 雨遮
+527,RPUOMLMKPHOFFAO96CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+528,RPUOMLMKPHOFFAO96CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+529,RPUOMLMKPHOFFAO96CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+530,RPUOMLMKPHOFFAO96CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+531,RPUOMLMKPHOFFAO96CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+532,RPUOMLMKPHOFFAO96CA,nan,16.79,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+533,RPUOMLMKPHOFFAO96CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+534,RPUOMLMKPHOFFAO96CA,nan,25.83,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+535,RPVOMLMKPHOFFAO07CA,nan,95.27,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十一層 陽台 雨遮
+536,RPVOMLMKPHOFFAO07CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+537,RPVOMLMKPHOFFAO07CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+538,RPVOMLMKPHOFFAO07CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+539,RPVOMLMKPHOFFAO07CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+540,RPVOMLMKPHOFFAO07CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+541,RPVOMLMKPHOFFAO07CA,nan,16.79,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+542,RPVOMLMKPHOFFAO07CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+543,RPVOMLMKPHOFFAO07CA,nan,25.83,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+544,RPWOMLMKPHOFFAO17CA,nan,95.63,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,七層 陽台 雨遮
+545,RPWOMLMKPHOFFAO17CA,nan,16.87,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+546,RPWOMLMKPHOFFAO17CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+547,RPWOMLMKPHOFFAO17CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+548,RPWOMLMKPHOFFAO17CA,nan,26.24,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+549,RPWOMLMKPHOFFAO17CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+550,RPWOMLMKPHOFFAO17CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+551,RPWOMLMKPHOFFAO17CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+552,RPWOMLMKPHOFFAO17CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+553,RPXOMLMKPHOFFAO27CA,nan,95.63,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,九層 陽台 雨遮
+554,RPXOMLMKPHOFFAO27CA,nan,16.87,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+555,RPXOMLMKPHOFFAO27CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+556,RPXOMLMKPHOFFAO27CA,nan,26.24,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+557,RPXOMLMKPHOFFAO27CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+558,RPXOMLMKPHOFFAO27CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+559,RPXOMLMKPHOFFAO27CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+560,RPXOMLMKPHOFFAO27CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+561,RPXOMLMKPHOFFAO27CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+562,RPOPMLMKPHOFFAO09CA,nan,95.63,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十層 陽台 雨遮
+563,RPOPMLMKPHOFFAO09CA,nan,16.87,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+564,RPOPMLMKPHOFFAO09CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+565,RPOPMLMKPHOFFAO09CA,nan,26.24,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+566,RPOPMLMKPHOFFAO09CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+567,RPOPMLMKPHOFFAO09CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+568,RPOPMLMKPHOFFAO09CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+569,RPOPMLMKPHOFFAO09CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+570,RPOPMLMKPHOFFAO09CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+571,RPPPMLMKPHOFFAO56CA,nan,86.9,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,八層 陽台 雨遮
+572,RPPPMLMKPHOFFAO56CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+573,RPPPMLMKPHOFFAO56CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+574,RPPPMLMKPHOFFAO56CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+575,RPPPMLMKPHOFFAO56CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+576,RPPPMLMKPHOFFAO56CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+577,RPPPMLMKPHOFFAO56CA,nan,15.32,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+578,RPPPMLMKPHOFFAO56CA,nan,5.66,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+579,RPPPMLMKPHOFFAO56CA,nan,23.41,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+580,RPQPMLMKPHOFFAO66CA,nan,86.9,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十一層 陽台 雨遮
+581,RPQPMLMKPHOFFAO66CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+582,RPQPMLMKPHOFFAO66CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+583,RPQPMLMKPHOFFAO66CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+584,RPQPMLMKPHOFFAO66CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+585,RPQPMLMKPHOFFAO66CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+586,RPQPMLMKPHOFFAO66CA,nan,15.32,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+587,RPQPMLMKPHOFFAO66CA,nan,5.66,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+588,RPQPMLMKPHOFFAO66CA,nan,23.41,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+589,RPRPMLMKPHOFFAO76CA,nan,91.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,三層 陽台 雨遮
+590,RPRPMLMKPHOFFAO76CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+591,RPRPMLMKPHOFFAO76CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+592,RPRPMLMKPHOFFAO76CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+593,RPRPMLMKPHOFFAO76CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+594,RPRPMLMKPHOFFAO76CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+595,RPRPMLMKPHOFFAO76CA,nan,16.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+596,RPRPMLMKPHOFFAO76CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+597,RPRPMLMKPHOFFAO76CA,nan,25.03,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+598,RPTPMLMKPHOFFAO96CA,nan,93.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,四層 陽台 雨遮
+599,RPTPMLMKPHOFFAO96CA,nan,16.55,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+600,RPTPMLMKPHOFFAO96CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+601,RPTPMLMKPHOFFAO96CA,nan,25.43,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+602,RPTPMLMKPHOFFAO96CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+603,RPTPMLMKPHOFFAO96CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+604,RPTPMLMKPHOFFAO96CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+605,RPTPMLMKPHOFFAO96CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+606,RPTPMLMKPHOFFAO96CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+607,RPUPMLMKPHOFFAO07CA,nan,93.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,五層 陽台 雨遮
+608,RPUPMLMKPHOFFAO07CA,nan,16.55,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+609,RPUPMLMKPHOFFAO07CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+610,RPUPMLMKPHOFFAO07CA,nan,25.43,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+611,RPUPMLMKPHOFFAO07CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+612,RPUPMLMKPHOFFAO07CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+613,RPUPMLMKPHOFFAO07CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+614,RPUPMLMKPHOFFAO07CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+615,RPUPMLMKPHOFFAO07CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+616,RPVPMLMKPHOFFAO17CA,nan,93.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,八層 陽台 雨遮
+617,RPVPMLMKPHOFFAO17CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+618,RPVPMLMKPHOFFAO17CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+619,RPVPMLMKPHOFFAO17CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+620,RPVPMLMKPHOFFAO17CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+621,RPVPMLMKPHOFFAO17CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+622,RPVPMLMKPHOFFAO17CA,nan,16.55,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+623,RPVPMLMKPHOFFAO17CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+624,RPVPMLMKPHOFFAO17CA,nan,25.43,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+625,RPWPMLMKPHOFFAO27CA,nan,93.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十一層 陽台 雨遮
+626,RPWPMLMKPHOFFAO27CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+627,RPWPMLMKPHOFFAO27CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+628,RPWPMLMKPHOFFAO27CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+629,RPWPMLMKPHOFFAO27CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+630,RPWPMLMKPHOFFAO27CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+631,RPWPMLMKPHOFFAO27CA,nan,16.55,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+632,RPWPMLMKPHOFFAO27CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+633,RPWPMLMKPHOFFAO27CA,nan,25.43,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+634,RPXPMLMKPHOFFAO37CA,nan,93.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十三層 陽台 雨遮
+635,RPXPMLMKPHOFFAO37CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+636,RPXPMLMKPHOFFAO37CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+637,RPXPMLMKPHOFFAO37CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+638,RPXPMLMKPHOFFAO37CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+639,RPXPMLMKPHOFFAO37CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+640,RPXPMLMKPHOFFAO37CA,nan,16.55,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+641,RPXPMLMKPHOFFAO37CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+642,RPXPMLMKPHOFFAO37CA,nan,25.43,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+643,RPOQMLMKPHOFFAO56CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,七層 陽台 雨遮
+644,RPOQMLMKPHOFFAO56CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+645,RPOQMLMKPHOFFAO56CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+646,RPOQMLMKPHOFFAO56CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+647,RPOQMLMKPHOFFAO56CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+648,RPOQMLMKPHOFFAO56CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+649,RPOQMLMKPHOFFAO56CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+650,RPOQMLMKPHOFFAO56CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+651,RPOQMLMKPHOFFAO56CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+652,RPPQMLMKPHOFFAO66CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,九層 陽台 雨遮
+653,RPPQMLMKPHOFFAO66CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+654,RPPQMLMKPHOFFAO66CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+655,RPPQMLMKPHOFFAO66CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+656,RPPQMLMKPHOFFAO66CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+657,RPPQMLMKPHOFFAO66CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+658,RPPQMLMKPHOFFAO66CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+659,RPPQMLMKPHOFFAO66CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+660,RPPQMLMKPHOFFAO66CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+661,RPQQMLMKPHOFFAO76CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十三層 陽台 雨遮
+662,RPQQMLMKPHOFFAO76CA,nan,0.08,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+663,RPQQMLMKPHOFFAO76CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+664,RPQQMLMKPHOFFAO76CA,nan,66.12,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+665,RPQQMLMKPHOFFAO76CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+666,RPQQMLMKPHOFFAO76CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+667,RPQQMLMKPHOFFAO76CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+668,RPQQMLMKPHOFFAO76CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+669,RPQQMLMKPHOFFAO76CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+670,RPRQMLMKPHOFFAO86CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十五層 陽台 雨遮
+671,RPRQMLMKPHOFFAO86CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+672,RPRQMLMKPHOFFAO86CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+673,RPRQMLMKPHOFFAO86CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+674,RPRQMLMKPHOFFAO86CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+675,RPRQMLMKPHOFFAO86CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+676,RPRQMLMKPHOFFAO86CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+677,RPRQMLMKPHOFFAO86CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+678,RPRQMLMKPHOFFAO86CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+679,RPSQMLMKPHOFFAO96CA,nan,91.77,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,五層 陽台 雨遮
+680,RPSQMLMKPHOFFAO96CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+681,RPSQMLMKPHOFFAO96CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+682,RPSQMLMKPHOFFAO96CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+683,RPSQMLMKPHOFFAO96CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+684,RPSQMLMKPHOFFAO96CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+685,RPSQMLMKPHOFFAO96CA,nan,16.14,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+686,RPSQMLMKPHOFFAO96CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+687,RPSQMLMKPHOFFAO96CA,nan,25.03,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+688,RPTQMLMKPHOFFAO07CA,nan,94.02,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,七層 陽台 雨遮
+689,RPTQMLMKPHOFFAO07CA,nan,16.55,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+690,RPTQMLMKPHOFFAO07CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+691,RPTQMLMKPHOFFAO07CA,nan,25.43,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+692,RPTQMLMKPHOFFAO07CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+693,RPTQMLMKPHOFFAO07CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+694,RPTQMLMKPHOFFAO07CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+695,RPTQMLMKPHOFFAO07CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+696,RPTQMLMKPHOFFAO07CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+697,RPUQMLMKPHOFFAO17CA,nan,89.54,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,五層 陽台 雨遮
+698,RPUQMLMKPHOFFAO17CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+699,RPUQMLMKPHOFFAO17CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+700,RPUQMLMKPHOFFAO17CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+701,RPUQMLMKPHOFFAO17CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+702,RPUQMLMKPHOFFAO17CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+703,RPUQMLMKPHOFFAO17CA,nan,15.81,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+704,RPUQMLMKPHOFFAO17CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+705,RPUQMLMKPHOFFAO17CA,nan,24.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+706,RPVQMLMKPHOFFAO27CA,nan,95.27,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,十二層 陽台 雨遮
+707,RPVQMLMKPHOFFAO27CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+708,RPVQMLMKPHOFFAO27CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+709,RPVQMLMKPHOFFAO27CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+710,RPVQMLMKPHOFFAO27CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+711,RPVQMLMKPHOFFAO27CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+712,RPVQMLMKPHOFFAO27CA,nan,16.79,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+713,RPVQMLMKPHOFFAO27CA,nan,6.1,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+714,RPVQMLMKPHOFFAO27CA,nan,25.83,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+715,RPWQMLMKPHOFFAO37CA,nan,91.89,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,七層 陽台 雨遮
+716,RPWQMLMKPHOFFAO37CA,nan,0.04,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+717,RPWQMLMKPHOFFAO37CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+718,RPWQMLMKPHOFFAO37CA,nan,33.06,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+719,RPWQMLMKPHOFFAO37CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+720,RPWQMLMKPHOFFAO37CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+721,RPWQMLMKPHOFFAO37CA,nan,16.22,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+722,RPWQMLMKPHOFFAO37CA,nan,5.88,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+723,RPWQMLMKPHOFFAO37CA,nan,25.03,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+724,RPXQMLMKPHOFFAO47CA,nan,86.9,集合住宅,鋼筋混凝土造,108年4月25日,二十九層,五層 陽台 雨遮
+725,RPXQMLMKPHOFFAO47CA,nan,0.08,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+726,RPXQMLMKPHOFFAO47CA,nan,0.0,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+727,RPXQMLMKPHOFFAO47CA,nan,66.12,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+728,RPXQMLMKPHOFFAO47CA,nan,0.03,辦公室,鋼筋混凝土造,108年4月25日,二十九層,nan
+729,RPXQMLMKPHOFFAO47CA,nan,0.01,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+730,RPXQMLMKPHOFFAO47CA,nan,15.32,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+731,RPXQMLMKPHOFFAO47CA,nan,5.66,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+732,RPXQMLMKPHOFFAO47CA,nan,23.41,共有部分,鋼筋混凝土造,108年4月25日,二十九層,nan
+733,RPWQMLPJPHOFFAO57CA,nan,216.22,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+734,RPWQMLPJPHOFFAO57CA,nan,0.15,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+735,RPORMLPJPHOFFAO86CA,nan,216.22,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+736,RPORMLPJPHOFFAO86CA,nan,0.15,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+737,RPSOMLPJPHOFFAO96CA,nan,232.44,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+738,RPSOMLPJPHOFFAO96CA,nan,0.15,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+739,RPURMLPJPHOFFAO47CA,nan,215.61,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+740,RPURMLPJPHOFFAO47CA,nan,0.15,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+741,RPOPMLPJPHOFFAO66CA,nan,223.02,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+742,RPOPMLPJPHOFFAO66CA,nan,0.15,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+743,RPSQMLPJPHOFFAO17CA,nan,197.04,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+744,RPSQMLPJPHOFFAO17CA,nan,0.15,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+745,RPPQMLPJPHOFFAO86CA,nan,234.43,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+746,RPPQMLPJPHOFFAO86CA,nan,0.15,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+747,RPSPMLPJPHOFFAO07CA,nan,243.27,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 陽台 雨遮 見其他登記事項
+748,RPSPMLPJPHOFFAO07CA,nan,0.15,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+749,RPVPMLPJPHOFFAO37CA,nan,114.84,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+750,RPVPMLPJPHOFFAO37CA,nan,0.07,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+751,RPVPMLPJPHOFFAO37CA,nan,114.84,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+752,RPVPMLPJPHOFFAO37CA,nan,0.07,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+753,RPSNMLMJPHOFFAO56CA,nan,64.57,集合住宅,鋼筋混凝土造,108年3月22日,八層,七層 陽台
+754,RPSNMLMJPHOFFAO56CA,nan,63.19,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+755,RPTNMLMJPHOFFAO66CA,nan,64.57,集合住宅,鋼筋混凝土造,108年3月22日,八層,八層 陽台
+756,RPTNMLMJPHOFFAO66CA,nan,63.19,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+757,RPVNMLMJPHOFFAO86CA,nan,67.1,集合住宅,鋼筋混凝土造,108年3月22日,八層,一層 陽台
+758,RPVNMLMJPHOFFAO86CA,nan,64.22,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+759,RPTNMLSLOHOFFAO37CA,22.0,9.88,共有部分,鋼筋混凝土造,1986年5月20日,十七層,nan
+760,RPTNMLSLOHOFFAO37CA,22.0,36.99,辦公室,鋼筋混凝土造,1986年5月20日,十七層,十三層 陽台
+761,RPTNMLSLOHOFFAO37CA,22.0,2.97,共有部分,鋼筋混凝土造,1986年5月20日,十七層,nan
+762,RPTNMLSLOHOFFAO37CA,22.0,1.62,社區健身中心,鋼筋混凝土造,1986年5月20日,十七層,四層 陽台 露台 花台
+763,RPTNMLSLOHOFFAO37CA,22.0,0.11,共有部分,鋼筋混凝土造,1986年5月20日,十七層,nan
+764,RPTNMLSLOHOFFAO37CA,22.0,0.18,共有部分,鋼筋混凝土造,1986年5月20日,十七層,nan
+765,RPPQMLSLOHOFFAO27CA,31.0,1065.98,見使用執照,鋼筋混凝土造,1977年8月2日,二層,一層 二層 屋頂突出物 地下層
+766,RPPNMLSLOHOFFAO96CA,10.0,32.56,辦公室,鋼筋混凝土造,1998年3月19日,十層,五層 陽台 雨遮
+767,RPPNMLSLOHOFFAO96CA,10.0,14.76,防空避難室兼停車空間、水箱、機房、電信機房、樓梯間,鋼筋混凝土造,1998年3月19日,十層,nan
+768,RPPNMLSLOHOFFAO96CA,10.0,4.04,樓梯間,鋼筋混凝土造,1998年3月19日,十層,nan
+769,RPRQMLQKPHOFFAO27CA,10.0,79.19,集合住宅,鋼筋混凝土造,1998年9月15日,九層,七層 陽台 雨遮
+770,RPRQMLQKPHOFFAO27CA,10.0,31.89,防空避難室、騎樓、機電設備、樓梯間、水箱,鋼筋混凝土造,1998年9月15日,九層,nan
+771,RPRQMLQKPHOFFAO27CA,10.0,8.5,停車空間,鋼筋混凝土造,1998年9月15日,九層,nan
+772,RPPNMLNLPHOFFAO56CA,4.0,65.63,集合住宅,鋼筋混凝土造,104年5月5日,十三層,十層 陽台 雨遮
+773,RPPNMLNLPHOFFAO56CA,4.0,48.82,共有部分,鋼筋混凝土造,104年5月5日,十三層,nan
+774,RPPNMLNLPHOFFAO56CA,4.0,13.62,共有部分,鋼筋混凝土造,104年5月5日,十三層,nan
+775,RPUPMLOJPHOFFAO17CA,1.0,87.46,集合住宅,鋼筋混凝土造,107年3月9日,十一層,五層 陽台
+776,RPUPMLOJPHOFFAO17CA,1.0,13.85,共有部分,鋼筋混凝土造,107年3月9日,十一層,nan
+777,RPUPMLOJPHOFFAO17CA,1.0,59.49,共有部分,鋼筋混凝土造,107年3月9日,十一層,nan
+778,RPSPMLNJPHOFFAO86CA,nan,112.8,店舖,鋼筋混凝土造,108年2月1日,六層,一層 陽台 見其他登記事項
+779,RPSPMLNJPHOFFAO86CA,nan,59.9,共有部分,鋼筋混凝土造,108年2月1日,六層,nan
+780,RPXOMLTJPHOFFAO87CA,15.0,126.78,集合住宅,鋼筋混凝土造,1993年2月10日,十三層,四層 陽台
+781,RPXOMLTJPHOFFAO87CA,15.0,62.77,台電配電室、防空避難室兼停車空間、戶內遊憩設施、機房、水箱、電梯間、辦公室〈社區使用〉,鋼筋混凝土造,1993年2月10日,十三層,nan
+782,RPOOMLPKPHOFFAO66CA,38.0,134.1,住家用,鋼筋混凝土造,1970年5月6日,五層,一層 地下層
+783,RPRQMLNJPHOFFAO86CA,21.0,115.52,住家用,鋼筋混凝土造,1987年7月18日,二十層,十五層 陽台 花台
+784,RPRQMLNJPHOFFAO86CA,21.0,33.92,防空避難室、停車空間,鋼筋混凝土造,1987年7月18日,二十二層,nan
+785,RPRQMLNJPHOFFAO86CA,21.0,40.38,停車空間,鋼筋混凝土造,1987年7月18日,二十二層,nan
+786,RPRQMLNJPHOFFAO86CA,21.0,1.89,社區活動中心,鋼筋混凝土造,1987年6月23日,二十一層,一層 陽台 地下一層 地下二層 地下三層
+787,RPRQMLNJPHOFFAO86CA,21.0,0.38,社區活動中心,鋼筋混凝土造,1987年6月23日,二十一層,一層 陽台
+788,RPRNMLNJPHOFFAO56CA,nan,64.95,集合住宅,鋼筋混凝土造,108年3月22日,八層,七層 陽台
+789,RPRNMLNJPHOFFAO56CA,nan,63.38,共有部分,鋼筋混凝土造,108年3月22日,八層,nan
+790,RPVPMLOJPHOFFAO27CA,3.0,84.46,店舖,鋼筋混凝土造,105年9月30日,十二層,一層 陽台 見其他登記事項
+791,RPVPMLOJPHOFFAO27CA,3.0,62.61,共有部分,鋼筋混凝土造,105年9月30日,十四層,nan
+792,RPQNMLQJPHOFFAO76CA,22.0,137.04,住家用,鋼筋混凝土造,1986年5月30日,二十四層,十九層 二十層 陽台 露台
+793,RPQNMLQJPHOFFAO76CA,22.0,5.12,共有部分,鋼筋混凝土造,1986年5月30日,二十四層,nan
+794,RPQNMLQJPHOFFAO76CA,22.0,15.59,共有部分,鋼筋混凝土造,1986年5月30日,二十四層,nan
+795,RPQNMLQJPHOFFAO76CA,22.0,4.22,共有部分,鋼筋混凝土造,1986年5月30日,二十四層,nan
+796,RPQNMLQJPHOFFAO76CA,22.0,12.19,共有部分,鋼筋混凝土造,1986年5月30日,二十四層,nan
+797,RPXOMLRKPHOFFAO77CA,15.0,243.24,住宅、停車空間,鋼筋混凝土造,1993年5月26日,四層,一層 二層 三層 四層 陽台 屋頂突出物
+798,RPSQMLPKPHOFFAO27CA,nan,216.24,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+799,RPSQMLPKPHOFFAO27CA,nan,0.15,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+800,RPWQMLQKPHOFFAO77CA,19.0,111.05,店舖,鋼筋混凝土造,1989年10月26日,十四層,一層 陽台 騎樓
+801,RPWQMLQKPHOFFAO77CA,19.0,4.58,共有部分,鋼筋混凝土造,1989年10月26日,十四層,nan
+802,RPWQMLQKPHOFFAO77CA,19.0,5.09,共有部分,鋼筋混凝土造,1989年10月26日,十四層,nan
+803,RPWQMLQKPHOFFAO77CA,19.0,0.69,住家用,鋼筋混凝土造,1989年10月26日,十四層,一層 陽台 雨遮
+804,RPWQMLQKPHOFFAO77CA,19.0,39.87,共有部分,鋼筋混凝土造,1989年10月26日,十四層,nan
+805,RPORMLMJQHOFFAO86EA,nan,82.6,住家用,鋼筋混凝土造,nan,五層,三層 陽台
+806,RPPPMLSKPHOFFAO17CA,16.0,244.19,住宅、店舖﹝零售﹞,鋼筋混凝土造,1992年6月20日,四層,一層 二層 三層 四層 屋頂突出物 騎樓 雨遮
+807,RPRQMLKKPHOFFAO66CA,10.0,70.75,辦公室,鋼筋混凝土造,1998年3月31日,十層,三層 陽台 雨遮
+808,RPRQMLKKPHOFFAO66CA,10.0,0.36,辦公室,鋼筋混凝土造,1998年3月31日,十層,一層
+809,RPRQMLKKPHOFFAO66CA,10.0,0.12,樓梯間、辦公室、守衛室,鋼筋混凝土造,1998年3月31日,十層,nan
+810,RPRQMLKKPHOFFAO66CA,10.0,0.12,樓梯間、辦公室、守衛室,鋼筋混凝土造,1998年3月31日,十層,nan
+811,RPRQMLKKPHOFFAO66CA,10.0,26.07,防空避難室兼停車空間,鋼筋混凝土造,1998年3月31日,十層,nan
+812,RPRQMLKKPHOFFAO66CA,10.0,24.5,樓梯間、辦公室、守衛室,鋼筋混凝土造,1998年3月31日,十層,nan
+813,RPRQMLKKPHOFFAO66CA,10.0,5.77,防空避難室兼停車空間,鋼筋混凝土造,1998年3月31日,十層,nan
+814,RPRNMLTKPHOFFAO27CA,3.0,105.44,店舖,鋼筋混凝土造,105年9月30日,十四層,一層 見其他登記事項
+815,RPRNMLTKPHOFFAO27CA,3.0,43.06,共有部分,鋼筋混凝土造,105年9月30日,十四層,nan
+816,RPSPMLPKPHOFFAO17CA,25.0,55.44,住家用,鋼筋混凝土造,1983年9月29日,七層,五層 陽台 花台
+817,RPSPMLPKPHOFFAO17CA,25.0,7.81,共有部分,鋼筋混凝土造,1983年9月29日,七層,nan
+818,RPSPMLPKPHOFFAO17CA,25.0,11.44,共有部分,鋼筋混凝土造,1983年9月29日,七層,nan
+819,RPUNMLMLPHOFFAO96CA,23.0,43.07,住家用,鋼筋混凝土造,1985年4月22日,三層,一層
+820,RPUNMLMLPHOFFAO96CA,23.0,17.06,共有部分,鋼筋混凝土造,1985年4月22日,三層,nan
+821,RPUNMLMLPHOFFAO96CA,23.0,94.96,住家用,鋼筋混凝土造,1985年4月22日,三層,二層 三層 陽台
+822,RPUNMLMLPHOFFAO96CA,23.0,17.06,共有部分,鋼筋混凝土造,1985年4月22日,三層,nan
+823,RPURMLTKPHOFFAO97CA,10.0,32.56,辦公室,鋼筋混凝土造,1998年3月19日,十層,五層 陽台 雨遮
+824,RPURMLTKPHOFFAO97CA,10.0,5.01,防空避難室兼停車空間、水箱、機房、電信機房、樓梯間,鋼筋混凝土造,1998年3月19日,十層,nan
+825,RPURMLTKPHOFFAO97CA,10.0,0.03,辦公室,鋼筋混凝土造,1998年3月19日,十層,地下二層
+826,RPURMLTKPHOFFAO97CA,10.0,14.76,防空避難室兼停車空間、水箱、機房、電信機房、樓梯間,鋼筋混凝土造,1998年3月19日,十層,nan
+827,RPURMLTKPHOFFAO97CA,10.0,4.04,樓梯間,鋼筋混凝土造,1998年3月19日,十層,nan
+828,RPTQMLNLPHOFFAO27CA,22.0,92.5,人行道、店舖、停車空間,鋼筋混凝土造,1986年5月15日,五層,一層 陽台 騎樓
+829,RPTQMLNLPHOFFAO27CA,22.0,11.33,共有部分,鋼筋混凝土造,1986年5月15日,五層,nan
+830,RPUPMLOLPHOFFAO37CA,7.0,30.29,集合住宅,鋼筋混凝土造,101年2月29日,十五層,八層 陽台 雨遮
+831,RPUPMLOLPHOFFAO37CA,7.0,21.91,共有部分,鋼筋混凝土造,101年2月29日,十五層,nan
+832,RPUPMLOLPHOFFAO37CA,7.0,7.71,共有部分,鋼筋混凝土造,101年2月29日,十五層,nan
+833,RPQPMLMJQHOFFAO66CA,10.0,70.92,集合住宅,鋼筋混凝土造,1998年9月9日,十五層,十層 陽台 雨遮
+834,RPQPMLMJQHOFFAO66CA,10.0,45.1,停車空間、設備機房、防空避難室、開放空間,鋼筋混凝土造,1998年9月9日,十五層,nan
+835,RPQPMLMJQHOFFAO66CA,10.0,12.32,樓梯間、電梯機械室、水箱,鋼筋混凝土造,1998年9月9日,十五層,nan
+836,RPQOMLOJQHOFFAO76CA,26.0,92.03,住家用,鋼筋混凝土造,1982年11月25日,七層,一層 平台 騎樓
+837,RPQOMLOJQHOFFAO76CA,26.0,4.18,共有部分,鋼筋混凝土造,1982年11月25日,七層,nan
+838,RPQOMLOJQHOFFAO76CA,26.0,13.02,共有部分,鋼筋混凝土造,1982年11月25日,七層,nan
+839,RPQNMLPKPHOFFAO96EA,8.0,0.06,辦公室,鋼筋混凝土造,100年11月21日,二十四層,nan
+840,RPQNMLPKPHOFFAO96EA,8.0,57.0,共有部分,鋼筋混凝土造,100年11月21日,二十四層,nan
+841,RPQNMLPKPHOFFAO96EA,8.0,127.83,集合住宅,鋼筋混凝土造,100年11月21日,二十四層,十層 陽台 雨遮
+842,RPQNMLPKPHOFFAO96EA,8.0,32.77,共有部分,鋼筋混凝土造,100年11月21日,二十四層,nan
+843,RPQNMLPKPHOFFAO96EA,8.0,22.18,共有部分,鋼筋混凝土造,100年11月21日,二十四層,nan
+844,RPRSMLMKPHOFFAO07CA,23.0,279.67,住家用,鋼筋混凝土造,1985年11月14日,二十一層,二十層 二十一層 陽台 花台
+845,RPRSMLMKPHOFFAO07CA,23.0,37.58,共有部分,鋼筋混凝土造,1985年11月14日,二十一層,nan
+846,RPRSMLMKPHOFFAO07CA,23.0,1.91,共有部分,鋼筋混凝土造,1985年11月14日,二十一層,nan
+847,RPRSMLMKPHOFFAO07CA,23.0,65.24,共有部分,鋼筋混凝土造,1985年11月14日,二十一層,nan
+848,RPQRMLQKPHOFFAO37DA,35.0,127.5,住家用,加強磚造,1973年1月1日,三層,一層 二層
+849,RPOOMLPKQHOFFAO76CA,nan,100.8,住家用,加強磚造,nan,二層,一層 二層
+850,RPXQMLRKPHOFFAO97CA,20.0,275.05,停車空間、住宅、梯間,鋼筋混凝土造,1988年1月8日,二層,一層 二層 陽台 屋頂突出物 雨遮
+851,RPROMLOJQHOFFAO86CA,25.0,88.06,住家用,鋼筋混凝土造,1983年11月23日,八層,三層 陽台
+852,RPROMLOJQHOFFAO86CA,25.0,15.95,共有部分,鋼筋混凝土造,1983年11月23日,八層,nan
+853,RPROMLOJQHOFFAO86CA,25.0,7.35,共有部分,鋼筋混凝土造,1983年11月23日,八層,nan
+854,RPXQMLQLPHOFFAO97CA,9.0,43.47,辦公室,鋼筋混凝土造,1999年8月10日,九層,三層 陽台
+855,RPXQMLQLPHOFFAO97CA,9.0,11.63,共有部分,鋼筋混凝土造,1999年8月10日,九層,nan
+856,RPXQMLQLPHOFFAO97CA,9.0,45.01,共有部分,鋼筋混凝土造,1999年8月10日,九層,nan
+857,RPRNMLMLPHOFFAO76DA,40.0,76.25,住家用,鋼筋混凝土造,1968年12月3日,四層,三層
+858,RPRSMLTKPHOFFAO77CA,23.0,99.3,住家用,鋼筋混凝土造,1985年11月9日,七層,五層 陽台
+859,RPRSMLTKPHOFFAO77CA,23.0,53.75,共有部分,鋼筋混凝土造,1985年11月9日,七層,nan
+860,RPXOMLPLPHOFFAO87EA,nan,74.71,住家用,加強磚造,nan,四層,三層
+861,RPQNMLKMPHOFFAO09CA,nan,307.92,住宅、停車空間、樓梯間、機械室,鋼筋混凝土造,108年5月27日,五層,一層 二層 三層 四層 五層 陽台 屋簷 見其他登記事項
+862,RPSOMLTLPHOFFAO57CA,45.0,292.25,住商用,鋼筋混凝土造,1963年12月24日,四層,一層 二層 三層 四層 騎樓 地下層
+863,RPROMLLMPHOFFAO96EA,34.0,124.44,住家用,鋼筋混凝土造,1974年12月7日,二層,一層 二層 陽台 平台 屋頂突出物
+864,RPORMLQLPHOFFAO17CA,nan,59.76,商業用,加強磚造,nan,一層,一層 騎樓
+865,RPUNMLKMPHOFFAO86CA,nan,216.24,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+866,RPUNMLKMPHOFFAO86CA,nan,0.15,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+867,RPWNMLKMPHOFFAO07CA,nan,200.17,門廊、梯間、停車空間、集合住宅、樓梯間,鋼筋混凝土造,108年1月18日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+868,RPWNMLKMPHOFFAO07CA,nan,0.15,共有部分,鋼筋混凝土造,108年1月18日,一層,nan
+869,RPQNMLPLPHOFFAO86CA,6.0,283.04,集合住宅,鋼筋混凝土造,102年7月10日,二十五層,二十四層 二十五層 陽台 雨遮
+870,RPQNMLPLPHOFFAO86CA,6.0,69.5,共有部分,鋼筋混凝土造,102年7月10日,二十五層,nan
+871,RPQNMLPLPHOFFAO86CA,6.0,53.35,共有部分,鋼筋混凝土造,102年7月10日,二十六層,nan
+872,RPQNMLPLPHOFFAO86CA,6.0,0.02,辦公室,鋼筋混凝土造,102年7月10日,二十六層,一層
+873,RPQNMLPLPHOFFAO86CA,6.0,55.14,共有部分,鋼筋混凝土造,102年7月10日,二十六層,nan
+874,RPTPMLKMPHOFFAO96CA,21.0,96.1,住家用,鋼筋混凝土造,1987年10月15日,八層,二層 陽台
+875,RPTPMLKMPHOFFAO96CA,21.0,9.52,共有部分,鋼筋混凝土造,1987年10月15日,八層,nan
+876,RPTPMLKMPHOFFAO96CA,21.0,16.49,共有部分,鋼筋混凝土造,1987年10月15日,八層,nan
+877,RPPOMLTLPHOFFAO27CA,20.0,175.54,住宅  停車空間,鋼筋混凝土造,1988年1月28日,四層,一層 二層 三層 四層 陽台
+878,RPUNMLQJQHOFFAO27CA,nan,43.05,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+879,RPUNMLQJQHOFFAO27CA,nan,87.54,店舖,鋼筋混凝土造,108年3月27日,七層,一層 陽台 見其他登記事項
+880,RPSOMLQJQHOFFAO17CA,nan,43.96,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+881,RPSOMLQJQHOFFAO17CA,nan,89.47,店舖,鋼筋混凝土造,108年3月27日,七層,一層 陽台 見其他登記事項
+882,RPUOMLQJQHOFFAO37CA,nan,32.26,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+883,RPUOMLQJQHOFFAO37CA,nan,64.97,集合住宅,鋼筋混凝土造,108年3月27日,七層,七層 陽台
+884,RPUOMLQJQHOFFAO37CA,nan,31.42,共有部分,鋼筋混凝土造,108年3月27日,七層,nan
+885,RPSRMLQLPHOFFAO57CA,6.0,243.33,店舖、集合住宅、停車空間、樓梯間,鋼筋混凝土造,102年6月28日,四層,一層 二層 三層 四層 雨遮 見其他登記事項
+886,RPPOMLLJQHOFFAO98CA,nan,135.96,集合住宅,鋼筋混凝土造,108年4月3日,七層,七層 陽台 見其他登記事項
+887,RPPOMLLJQHOFFAO98CA,nan,12.55,共有部分,鋼筋混凝土造,108年4月3日,七層,nan
+888,RPPOMLLJQHOFFAO98CA,nan,54.13,共有部分,鋼筋混凝土造,108年4月3日,七層,nan
+889,RPRPMLQLPHOFFAO37DA,38.0,92.76,住家用,加強磚造,1970年6月25日,二層,一層 二層
+890,RPPWSLOKQHOFFAO18CA,4.0,114.77,騎樓、店舖,鋼筋混凝土造,104年7月9日,十一層,一層 二層 陽台 騎樓
+891,RPPWSLOKQHOFFAO18CA,4.0,47.96,共有部分,鋼筋混凝土造,104年7月9日,十一層,nan
+892,RPPNMLMJQHOFFAO98CA,24.0,94.07,住家用,鋼筋混凝土造,1984年11月23日,五層,二層 三層 陽台 花台
+893,RPPNMLMJQHOFFAO98CA,24.0,7.85,共有部分,鋼筋混凝土造,1984年11月23日,五層,nan
+894,RPPNMLMJQHOFFAO98CA,24.0,21.9,共有部分,鋼筋混凝土造,1984年11月23日,五層,nan
+895,RPRPMLLMPHOFFAO86CA,25.0,223.56,工業用,鋼筋混凝土造,1983年1月27日,四層,一層 二層 陽台 平台
+896,RPRPMLLMPHOFFAO86CA,25.0,75.2,共有部分,鋼筋混凝土造,1983年1月27日,四層,nan
+897,RPTNMLLJQHOFFAO76DA,nan,116.37,住家用,鋼筋混凝土造,nan,三層,一層 二層 三層
+898,RPPOMLMJQHOFFAO09CA,nan,34.05,住家用,鋼筋混凝土造,nan,十四層,六層 陽台
+899,RPPOMLMJQHOFFAO09CA,nan,21.44,共有部分,鋼筋混凝土造,nan,十四層,nan
+900,RPWNMLMJQHOFFAO07CA,9.0,329.95,集合住宅,鋼筋混凝土造,1999年7月23日,二十一層,二十層 二十一層 陽台 雨遮
+901,RPWNMLMJQHOFFAO07CA,9.0,73.46,共有部分,鋼筋混凝土造,1999年7月23日,二十一層,nan
+902,RPWNMLMJQHOFFAO07CA,9.0,59.95,共有部分,鋼筋混凝土造,1999年7月23日,二十一層,nan
+903,RPWNMLMJQHOFFAO07CA,9.0,0.2,辦公室,鋼筋混凝土造,1999年7月23日,二十一層,一層
+904,RPWNMLMJQHOFFAO07CA,9.0,174.0,共有部分,鋼筋混凝土造,1999年7月23日,二十一層,nan
+905,RPTPMLMKQHOFFAO07CA,nan,76.7,國民住宅,鋼筋混凝土造,nan,四層,三層
+906,RPSPMLSJQHOFFAO47CA,12.0,56.68,集合住宅,鋼筋混凝土造,1996年6月25日,七層,六層 七層 陽台 雨遮
+907,RPSPMLSJQHOFFAO47CA,12.0,19.8,樓梯間、水箱、機械室,鋼筋混凝土造,1996年6月25日,七層,nan
+908,RPSPMLSJQHOFFAO47CA,12.0,27.48,防空避難室兼停車空間,鋼筋混凝土造,1996年6月25日,七層,nan
+909,RPPNMLRLQHOFFAO07CA,9.0,106.4,店舖,鋼筋混凝土造,1999年8月9日,十五層,一層 陽台 見其他登記事項
+910,RPPNMLRLQHOFFAO07CA,9.0,52.0,共有部分,鋼筋混凝土造,1999年8月9日,十五層,nan
+911,RPPNMLRLQHOFFAO07CA,9.0,24.29,共有部分,鋼筋混凝土造,1999年8月9日,十五層,nan
+912,RPTPMLKMQHOFFAO07CA,21.0,151.0,住家用,鋼筋混凝土造,1987年5月10日,九層,五層 陽台
+913,RPTPMLKMQHOFFAO07CA,21.0,28.44,共有部分,鋼筋混凝土造,1987年5月10日,九層,nan
+914,RPTPMLKMQHOFFAO07CA,21.0,29.19,共有部分,鋼筋混凝土造,1987年5月10日,九層,nan
+915,RPVNMLQKQHOFFAO47CA,17.0,165.26,一般工廠、辦公室,鋼筋混凝土造,1991年4月30日,十層,八層
+916,RPVNMLQKQHOFFAO47CA,17.0,103.83,防空避難室、停車場、梯間、機房、儲藏室、水箱,鋼筋混凝土造,1991年4月30日,十層,nan
+917,RPVPMLMKQHOFFAO27CA,2.0,44.81,集合住宅,鋼筋混凝土造,106年5月19日,九層,九層 雨遮 見其他登記事項
+918,RPVPMLMKQHOFFAO27CA,2.0,37.0,共有部分,鋼筋混凝土造,106年5月19日,九層,nan

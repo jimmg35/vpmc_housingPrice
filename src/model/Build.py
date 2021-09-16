@@ -26,3 +26,14 @@ class Build():
         ###
         self.buildingAge = row["屋齡"]
 
+    def outputRow(self):
+        return [
+            self.serialNumber,
+            self.buildingAge,
+            self.buildingShiftingArea,
+            self.mainUse,
+            self.buildingMaterial,
+            self.completionDate,
+            self.totalFloorNumber,
+            self.buildingLamination
+        ]

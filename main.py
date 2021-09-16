@@ -13,6 +13,8 @@ import pandas as pd
 import numpy as np 
 
 from typing import List
+import os 
+from os import error, listdir
 
 
 def readFile(path: str, type: str) -> List[Deal]:
@@ -30,7 +32,6 @@ def readFile(path: str, type: str) -> List[Deal]:
             instance = Park(row)
         output.append(instance)
     return output
-
 
 def structureHolder(dealArrays: List[Deal], buildArrays: List[Build],
                     landArrays: List[Land], parkArrays: List[Park]) -> List[Holder]:
@@ -51,6 +52,27 @@ def structureHolder(dealArrays: List[Deal], buildArrays: List[Build],
         output.contents.append(holder)
     return output
 
+def readBatchFile(path: str) -> List[HolderArray]:
+    for county in listdir(path):
+        countyFilePath = os.path.join(path, county)
+        entityDict = {}
+        # reading four essential files
+        for filename in listdir(countyFilePath):
+            filePath = os.path.join(countyFilePath, filename)
+            fileType = "Deal"
+            if "build" in filename:
+                fileType = "Build"
+            if "land" in filename:
+                fileType = "Land"
+            if "park" in filename:
+                fileType = "Park"
+            # print(filePath, fileType)
+            entityArray = readFile(filePath, fileType)
+            entityDict[fileType] = entityArray
+        # pack into holder array
+        holderArray: HolderArray = structureHolder(entityDict["Deal"], entityDict["Build"], entityDict["Land"], entityDict["Park"])
+        holderArray.status(county)
+        holderArray.exportDeviantCases("deviantCases", county)
 
 if __name__ == "__main__":
 
@@ -64,22 +86,17 @@ if __name__ == "__main__":
     # landArrays = readFile("data/Taichung/b_lvr_land_a_land.csv", "Land")
     # parkArrays = readFile("data/Taichung/b_lvr_land_a_park.csv", "Park")
 
-    dealArrays = readFile("data/Keelung/c_lvr_land_a.csv", "Deal")
-    buildArrays = readFile("data/Keelung/c_lvr_land_a_build.csv", "Build")
-    landArrays = readFile("data/Keelung/c_lvr_land_a_land.csv", "Land")
-    parkArrays = readFile("data/Keelung/c_lvr_land_a_park.csv", "Park")
+    # dealArrays = readFile("data/Keelung/deal.csv", "Deal")
+    # buildArrays = readFile("data/Keelung/build.csv", "Build")
+    # landArrays = readFile("data/Keelung/land.csv", "Land")
+    # parkArrays = readFile("data/Keelung/park.csv", "Park")
 
+    # holderArray: HolderArray = structureHolder(dealArrays, buildArrays, landArrays, parkArrays)
+    # holderArray.status("Keelung")
+    # holderArray.exportDeviantCases("deviantCases", "Keelung")
 
-    holderArray: HolderArray = structureHolder(dealArrays, buildArrays, landArrays, parkArrays)
-    holderArray.status()
+    readBatchFile("data")
 
-
-    # for i in holderArray.contents:
-    #     if i.totalLevelIsDeviant:
-    #         try:
-    #             print(i.parsedTotalLevel, i.deal.buildingState)
-    #         except:
-    #             continue
 
         
 

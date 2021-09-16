@@ -1,8 +1,5 @@
 
 
-from typing import Dict
-
-
 class Deal():
     serialNumber: str             # 編號 (UID)
     ###
@@ -82,18 +79,40 @@ class Deal():
         self.compartmented = row["建物現況格局-隔間"]
         self.elevator = row["電梯"]
 
+    def outputRow(self):
+        return [
+            self.town,
+            self.transactionSign,
+            self.address,
+            self.landShiftingArea,
+            self.landUse,
+            self.nonMetroLandUseDistrict,
+            self.nonMetroLandUse,
+            self.transactionDate,
+            self.transactionAmount,
+            self.shiftingLevel,
+            self.totalFloorNumber,
+            self.buildingState,
+            self.mainUse,
+            self.buildingMaterial,
+            self.completionDate,
+            self.buildingShiftingArea,
+            self.roomNumber,
+            self.hallNumber,
+            self.healthNumber,
+            self.compartmented,
+            self.manageOrganization,
+            self.totalPrice,
+            self.unitPrice,
+            self.parkCategory,
+            self.parkShiftingArea,
+            self.parkTotalPrice,
+            self.note,
+            self.serialNumber,
+            self.mainBuildingArea,
+            self.subBuildingArea,
+            self.belconyArea,
+            self.elevator,
+            self.shiftingCode
+        ]
                 
-
-        
-        
-        
-        
-        
-
-
-
-
-    
-
-
-

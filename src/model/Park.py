@@ -19,3 +19,12 @@ class Park():
         self.parkArea = row["車位面積平方公尺"]
         ###
         self.parkPrice = row["車位價格"]
+    
+    def outputRow(self):
+        return [
+            self.serialNumber,
+            self.parkCategory,
+            self.parkPrice,
+            self.parkArea,
+            self.parkLevel
+        ]

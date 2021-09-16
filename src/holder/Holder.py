@@ -8,7 +8,6 @@ from typing import Dict, List
 
 import cn2an
 
-
 class Holder():
     deal: Deal
     ###
@@ -17,9 +16,9 @@ class Holder():
     parks: List[Park] = []
     ###
     dealIsDeviant: bool                   # 交易異常
-    totalLevelIsDeviant: bool          # 轉移樓層異常
+    totalLevelIsDeviant: bool             # 轉移樓層異常
     shiftingLevelMezzanineIsDeviant: bool # 有夾層
-    shiftingLevelDuplexIsDeviant: bool # 有夾層
+    shiftingLevelDuplexIsDeviant: bool    # 樓中樓
     ###
     transactionSignParsed: Dict
     transactionAmountParsed: Dict

@@ -26,4 +26,14 @@ class Land():
         self.rightOwnerHoldsDenumerate = row["權利人持分分母"]
         self.rightOwnerHoldsNumerate = row["權利人持分分子"]
 
-
+    def outputRow(self):
+        return [
+            self.serialNumber,
+            self.landPosition,
+            self.landShiftingArea,
+            self.landUse,
+            self.rightOwnerHoldsDenumerate,
+            self.rightOwnerHoldsNumerate,
+            self.shiftingStatus,
+            self.landParcel
+        ]

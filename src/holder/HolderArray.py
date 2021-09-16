@@ -1,11 +1,12 @@
 
-from ..model.Deal import Deal
-from ..model.Build import Build
-from ..model.Land import Land
-from ..model.Park import Park
 from .Holder import Holder
 
+import os
+import numpy as np
+import pandas as pd
 from typing import List
+from colorama import init, Fore, Back, Style
+init(convert=True)
 
 class HolderArray():
     contents: List[Holder]
@@ -13,13 +14,81 @@ class HolderArray():
     def __init__(self):
         self.contents = []
     
-    def status(self):
+    def status(self, county):
         normal = []
         deviants = []
+
+        totalLevelDeviants = []
+        shiftingLevelMezzanineDeviants = []
+        shiftingLevelDuplexDeviants = []
         for index, holder in enumerate(self.contents):
             if holder.dealIsDeviant:
                 deviants.append(holder)
             else:
                 normal.append(holder)
-        print(f"normal case  : {len(normal)}")
-        print(f"deviant case : {len(deviants)}")
+            
+            if holder.totalLevelIsDeviant:
+                totalLevelDeviants.append(holder)
+
+            if holder.shiftingLevelMezzanineIsDeviant:
+                shiftingLevelMezzanineDeviants.append(holder)
+
+            if holder.shiftingLevelDuplexIsDeviant:
+                shiftingLevelDuplexDeviants.append(holder)
+
+        print(Style.RESET_ALL + Fore.WHITE + f"\n===================== {county} =====================" + Style.RESET_ALL)
+        print(Style.RESET_ALL + Fore.GREEN + f" 正常交易量             : {len(normal)}" + Style.RESET_ALL)
+        print(Style.RESET_ALL + Fore.RED + f" 異常交易量             : {len(deviants)}")
+
+        print(f" 建物型態與總樓層數異常 : {len(totalLevelDeviants)}")
+        print(f" 夾層異常               : {len(shiftingLevelMezzanineDeviants)}")
+        print(f" 樓中樓異常             : {len(shiftingLevelDuplexDeviants)}" + Style.RESET_ALL)
+
+    def exportDeviantCases(self, path, county):
+        if os.path.exists(path) == False:
+            os.mkdir(path)
+        if os.path.exists(os.path.join(path, county)) == False:
+            os.mkdir(os.path.join(path, county))
+        
+        dealTableData = []
+        buildTableData = []
+        landTableData = []
+        parkTableData = []
+        for index, holder in enumerate(self.contents):
+            if holder.dealIsDeviant:
+
+                dealTableData.append(
+                    holder.deal.outputRow()
+                )
+                
+                for build in holder.builds:
+                    buildTableData.append(
+                        build.outputRow()
+                    )
+
+                for land in holder.lands:
+                    landTableData.append(
+                        land.outputRow()
+                    )
+
+                for park in holder.parks:
+                    parkTableData.append(
+                        park.outputRow()
+                    )
+        
+        
+        deviantDeals = pd.DataFrame(np.array(dealTableData), columns=["鄉鎮市區","交易標的","土地位置建物門牌","土地移轉總面積平方公尺","都市土地使用分區","非都市土地使用分區","非都市土地使用編定","交易年月日","交易筆棟數","移轉層次",	"總樓層數",	"建物型態"	,"主要用途"	,"主要建材",	"建築完成年月",	"建物移轉總面積平方公尺",	"建物現況格局-房",	"建物現況格局-廳",	"建物現況格局-衛",	"建物現況格局-隔間",	"有無管理組織",	"總價元",	"單價元平方公尺",	"車位類別",	"車位移轉總面積(平方公尺)",	"車位總價元",	"備註",	"編號",	"主建物面積",	"附屬建物面積",	"陽台面積",	"電梯",	"移轉編號"])
+        deviantBuilds = pd.DataFrame(np.array(buildTableData), columns=["編號",	"屋齡",	"建物移轉面積平方公尺",	"主要用途",	"主要建材"	,"建築完成日期"	,"總層數"	,"建物分層"])
+        deviantLands = pd.DataFrame(np.array(landTableData), columns=["編號",	"土地位置",	"土地移轉面積(平方公尺)",	"使用分區或編定",	"權利人持分分母"	,"權利人持分分子"	,"移轉情形",	"地號"])
+        deviantParks = pd.DataFrame(np.array(parkTableData), columns=["編號"	,"車位類別",	"車位價格",	"車位面積平方公尺",	"車位所在樓層"])
+
+        print(deviantParks)
+        #print(deviantDeals)
+        deviantDeals.to_csv(os.path.join(path, county, "deviantDeals_{}.csv".format(county)), encoding="utf-8-sig")
+        deviantBuilds.to_csv(os.path.join(path, county, "deviantBuilds_{}.csv".format(county)), encoding="utf-8-sig")
+        deviantLands.to_csv(os.path.join(path, county, "deviantLands_{}.csv".format(county)), encoding="utf-8-sig")
+        deviantParks.to_csv(os.path.join(path, county, "deviantParks_{}.csv".format(county)), encoding="utf-8-sig")
+                    
+
+
+            
