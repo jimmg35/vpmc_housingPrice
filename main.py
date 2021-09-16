@@ -52,7 +52,8 @@ def structureHolder(dealArrays: List[Deal], buildArrays: List[Build],
         output.contents.append(holder)
     return output
 
-def readBatchFile(path: str) -> List[HolderArray]:
+def readBatchFile(path: str):
+    totalStatsChunk = []
     for county in listdir(path):
         countyFilePath = os.path.join(path, county)
         entityDict = {}
@@ -72,10 +73,78 @@ def readBatchFile(path: str) -> List[HolderArray]:
         # pack into holder array
         holderArray: HolderArray = structureHolder(entityDict["Deal"], entityDict["Build"], entityDict["Land"], entityDict["Park"])
         holderArray.status(county)
+        statsChunk = holderArray.exportDeviantStatistic(county)
         holderArray.exportDeviantCases("deviantCases", county)
+        totalStatsChunk.append(statsChunk)
+    return totalStatsChunk
+        
+
+def outputDeviantTable(data, path, filename):
+    if os.path.exists(path) == False:
+        os.mkdir(path)
+
+    sheet = []
+    for row in data:
+        sheet.append([
+            row["county"], 
+            row["data"][0], 
+            row["data"][1], 
+            row["data"][2], 
+            row["data"][3], 
+            row["data"][4]
+        ])
+    
+    np_sheet = np.array(sheet)
+    df = pd.DataFrame(data=np_sheet, columns=data[0]["column"])
+    df.to_csv(os.path.join(path, filename), encoding="utf-8-sig")
+            
+    
 
 if __name__ == "__main__":
 
+    totalStatsChunk = readBatchFile("data")
+    outputDeviantTable(totalStatsChunk, "deviantStats", "deviantStats.csv")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     # dealArrays = readFile("data/Taipei/a_lvr_land_a.csv", "Deal")
     # buildArrays = readFile("data/Taipei/a_lvr_land_a_build.csv", "Build")
     # landArrays = readFile("data/Taipei/a_lvr_land_a_land.csv", "Land")
@@ -95,7 +164,7 @@ if __name__ == "__main__":
     # holderArray.status("Keelung")
     # holderArray.exportDeviantCases("deviantCases", "Keelung")
 
-    readBatchFile("data")
+    
 
 
         
