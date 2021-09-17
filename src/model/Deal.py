@@ -115,4 +115,4 @@ class Deal():
             self.elevator,
             self.shiftingCode
         ]
-                
+

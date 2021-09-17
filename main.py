@@ -78,15 +78,38 @@ def readBatchFile(path: str):
         totalStatsChunk.append(statsChunk)
     return totalStatsChunk
         
-
 def outputDeviantTable(data, path, filename):
     if os.path.exists(path) == False:
         os.mkdir(path)
+    
+    countyEngZhDict = {
+        "Changhua": "彰化",
+        "ChiayiCity": "嘉義市",
+        "ChiayiCounty": "嘉義縣",
+        "HsinchuCity": "新竹市",
+        "HsinchuCounty": "新竹縣",
+        "Hualien": "花蓮",
+        "Kaohsiung": "高雄",
+        "Keelung": "基隆",
+        "Kinmen": "金門",
+        "Miaoli": "苗栗",
+        "Nantou": '南投',
+        "NewTaipei": "新北",
+        "Penghu": "澎湖", 
+        "Pingtung": "屏東",
+        "Taichung": "臺中",
+        "Tainan": "臺南",
+        "Taipei": "臺北",
+        "Taitung":"臺東",
+        "Taoyuan":"桃園",
+        "Yilan":"宜蘭",
+        "Yunlin":"雲林",
+    }
 
     sheet = []
     for row in data:
         sheet.append([
-            row["county"], 
+            countyEngZhDict[row["county"]], 
             row["data"][0], 
             row["data"][1], 
             row["data"][2], 
@@ -98,10 +121,9 @@ def outputDeviantTable(data, path, filename):
     df = pd.DataFrame(data=np_sheet, columns=data[0]["column"])
     df.to_csv(os.path.join(path, filename), encoding="utf-8-sig")
             
-    
+
 
 if __name__ == "__main__":
-
     totalStatsChunk = readBatchFile("data")
     outputDeviantTable(totalStatsChunk, "deviantStats", "deviantStats.csv")
 
