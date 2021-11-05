@@ -184,7 +184,6 @@ class Holder():
                 self.dealIsDeviant = True
                 self.shiftingLevelDuplexIsDeviant = True
 
-
     ###################################
 
     def startUp(self):

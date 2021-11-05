@@ -38,6 +38,9 @@ class Deal():
     manageOrganization: bool      # 有無管理組織
     compartmented: bool           # 建物現況格局-隔間
     elevator: bool                # 電梯
+    ###
+    longitude: float
+    latitude: float
 
 
     def __init__(self, row):
@@ -116,3 +119,41 @@ class Deal():
             self.shiftingCode
         ]
 
+    def outputRow_geocoded(self):
+        return [
+            self.town,
+            self.transactionSign,
+            self.address,
+            self.landShiftingArea,
+            self.landUse,
+            self.nonMetroLandUseDistrict,
+            self.nonMetroLandUse,
+            self.transactionDate,
+            self.transactionAmount,
+            self.shiftingLevel,
+            self.totalFloorNumber,
+            self.buildingState,
+            self.mainUse,
+            self.buildingMaterial,
+            self.completionDate,
+            self.buildingShiftingArea,
+            self.roomNumber,
+            self.hallNumber,
+            self.healthNumber,
+            self.compartmented,
+            self.manageOrganization,
+            self.totalPrice,
+            self.unitPrice,
+            self.parkCategory,
+            self.parkShiftingArea,
+            self.parkTotalPrice,
+            self.note,
+            self.serialNumber,
+            self.mainBuildingArea,
+            self.subBuildingArea,
+            self.belconyArea,
+            self.elevator,
+            self.shiftingCode,
+            self.longitude,
+            self.latitude
+        ]

@@ -1,13 +1,12 @@
 
-from src.holder import Holder
+from ..holder.Holder import Holder
+from ..model.Deal import Deal
+from ..model.Build import Build
+from ..model.Land import Land
+from ..model.Park import Park
 
-from src.model.Deal import Deal
-from src.model.Build import Build
-from src.model.Land import Land
-from src.model.Park import Park
 
-from src.holder.Holder import Holder
-from src.holder.HolderArray import HolderArray 
+from ..holder.HolderArray import HolderArray 
 
 import pandas as pd 
 import numpy as np 
@@ -52,7 +51,7 @@ def structureHolder(dealArrays: List[Deal], buildArrays: List[Build],
         output.contents.append(holder)
     return output
 
-def readBatchFile(path: str):
+def outputCases(path: str, output_path: str , deviant=False):
     totalStatsChunk = []
     for county in listdir(path):
         countyFilePath = os.path.join(path, county)
@@ -74,7 +73,7 @@ def readBatchFile(path: str):
         holderArray: HolderArray = structureHolder(entityDict["Deal"], entityDict["Build"], entityDict["Land"], entityDict["Park"])
         holderArray.status(county)
         statsChunk = holderArray.exportDeviantStatistic(county)
-        holderArray.exportDeviantCases("deviantCases", county)
+        holderArray.exportCases(output_path, county, deviant=deviant)
         totalStatsChunk.append(statsChunk)
     return totalStatsChunk
         
@@ -120,81 +119,37 @@ def outputDeviantTable(data, path, filename):
     np_sheet = np.array(sheet)
     df = pd.DataFrame(data=np_sheet, columns=data[0]["column"])
     df.to_csv(os.path.join(path, filename), encoding="utf-8-sig")
-            
-
-
-if __name__ == "__main__":
-    totalStatsChunk = readBatchFile("data")
-    outputDeviantTable(totalStatsChunk, "deviantStats", "deviantStats.csv")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
-    # dealArrays = readFile("data/Taipei/a_lvr_land_a.csv", "Deal")
-    # buildArrays = readFile("data/Taipei/a_lvr_land_a_build.csv", "Build")
-    # landArrays = readFile("data/Taipei/a_lvr_land_a_land.csv", "Land")
-    # parkArrays = readFile("data/Taipei/a_lvr_land_a_park.csv", "Park")
+def initCountyFolder(folderPath: str):
+    countys = [
+        "Changhua",
+        "ChiayiCity",
+        "ChiayiCounty",
+        "HsinchuCity",
+        "HsinchuCounty",
+        "Hualien",
+        "Kaohsiung",
+        "Keelung",
+        "Kinmen",
+        "Miaoli",
+        "Nantou",
+        "NewTaipei",
+        "Penghu", 
+        "Pingtung",
+        "Taichung",
+        "Tainan",
+        "Taipei",
+        "Taitung",
+        "Taoyuan",
+        "Yilan",
+        "Yunlin",
+    ]
 
-    # dealArrays = readFile("data/Taichung/b_lvr_land_a.csv", "Deal")
-    # buildArrays = readFile("data/Taichung/b_lvr_land_a_build.csv", "Build")
-    # landArrays = readFile("data/Taichung/b_lvr_land_a_land.csv", "Land")
-    # parkArrays = readFile("data/Taichung/b_lvr_land_a_park.csv", "Park")
+    if os.path.exists(folderPath) == False:
+        os.mkdir(folderPath)
 
-    # dealArrays = readFile("data/Keelung/deal.csv", "Deal")
-    # buildArrays = readFile("data/Keelung/build.csv", "Build")
-    # landArrays = readFile("data/Keelung/land.csv", "Land")
-    # parkArrays = readFile("data/Keelung/park.csv", "Park")
-
-    # holderArray: HolderArray = structureHolder(dealArrays, buildArrays, landArrays, parkArrays)
-    # holderArray.status("Keelung")
-    # holderArray.exportDeviantCases("deviantCases", "Keelung")
-
+    for i in countys:
+        countyFolder = os.path.join(folderPath, i)
+        if os.path.exists(countyFolder) == False:
+            os.mkdir(countyFolder)
     
-
-
-        
-
-
-
-
-
-
-
-

@@ -10,10 +10,19 @@ init(convert=True)
 
 class HolderArray():
     contents: List[Holder]
+    landOutputCsvColumn: List[str]
+    parkOutputCsvColumn: List[str]
+    buildOutputCsvColumn: List[str]
+    dealOutputCsvColumn: List[str]
 
     def __init__(self):
         self.contents = []
-    
+        self.parkOutputCsvColumn = ["編號"	,"車位類別",	"車位價格",	"車位面積平方公尺",	"車位所在樓層"]
+        self.landOutputCsvColumn = ["編號",	"土地位置",	"土地移轉面積(平方公尺)",	"使用分區或編定",	"權利人持分分母"	,"權利人持分分子"	,"移轉情形",	"地號"]
+        self.buildOutputCsvColumn = ["編號",	"屋齡",	"建物移轉面積平方公尺",	"主要用途",	"主要建材"	,"建築完成日期"	,"總層數"	,"建物分層"]
+        self.dealOutputCsvColumn = ["鄉鎮市區","交易標的","土地位置建物門牌","土地移轉總面積平方公尺","都市土地使用分區","非都市土地使用分區","非都市土地使用編定","交易年月日","交易筆棟數","移轉層次",	"總樓層數",	"建物型態"	,"主要用途"	,"主要建材",	"建築完成年月",	"建物移轉總面積平方公尺",	"建物現況格局-房",	"建物現況格局-廳",	"建物現況格局-衛",	"建物現況格局-隔間",	"有無管理組織",	"總價元",	"單價元平方公尺",	"車位類別",	"車位移轉總面積(平方公尺)",	"車位總價元",	"備註",	"編號",	"主建物面積",	"附屬建物面積",	"陽台面積",	"電梯",	"移轉編號"]
+
+
     def status(self, county):
         self.normal = []
         self.deviants = []
@@ -62,18 +71,19 @@ class HolderArray():
             ]
         }
 
-    def exportDeviantCases(self, path, county):
-        if os.path.exists(path) == False:
-            os.mkdir(path)
-        if os.path.exists(os.path.join(path, county)) == False:
-            os.mkdir(os.path.join(path, county))
+    def exportCases(self, path, county, deviant=False):
+        suffix = "normal"
+        if deviant:
+            suffix = "deviant"
+
+        self.initDirectory(path, county)
         
         dealTableData = []
         buildTableData = []
         landTableData = []
         parkTableData = []
         for index, holder in enumerate(self.contents):
-            if holder.dealIsDeviant:
+            if holder.dealIsDeviant == deviant:
 
                 dealTableData.append(
                     holder.deal.outputRow()
@@ -95,29 +105,33 @@ class HolderArray():
                     )
         
         try:
-            deviantDeals = pd.DataFrame(np.array(dealTableData), columns=["鄉鎮市區","交易標的","土地位置建物門牌","土地移轉總面積平方公尺","都市土地使用分區","非都市土地使用分區","非都市土地使用編定","交易年月日","交易筆棟數","移轉層次",	"總樓層數",	"建物型態"	,"主要用途"	,"主要建材",	"建築完成年月",	"建物移轉總面積平方公尺",	"建物現況格局-房",	"建物現況格局-廳",	"建物現況格局-衛",	"建物現況格局-隔間",	"有無管理組織",	"總價元",	"單價元平方公尺",	"車位類別",	"車位移轉總面積(平方公尺)",	"車位總價元",	"備註",	"編號",	"主建物面積",	"附屬建物面積",	"陽台面積",	"電梯",	"移轉編號"])
-            deviantDeals.to_csv(os.path.join(path, county, "deviantDeals_{}.csv".format(county)), encoding="utf-8-sig")
+            deviantDeals = pd.DataFrame(np.array(dealTableData), columns=self.dealOutputCsvColumn)
+            deviantDeals.to_csv(os.path.join(path, county, suffix + "Deals_{}.csv".format(county)), encoding="utf-8-sig")
         except:
             print(county, "deal")
         
         try:
-            deviantBuilds = pd.DataFrame(np.array(buildTableData), columns=["編號",	"屋齡",	"建物移轉面積平方公尺",	"主要用途",	"主要建材"	,"建築完成日期"	,"總層數"	,"建物分層"])
-            deviantBuilds.to_csv(os.path.join(path, county, "deviantBuilds_{}.csv".format(county)), encoding="utf-8-sig")
+            deviantBuilds = pd.DataFrame(np.array(buildTableData), columns=self.buildOutputCsvColumn)
+            deviantBuilds.to_csv(os.path.join(path, county, suffix + "Builds_{}.csv".format(county)), encoding="utf-8-sig")
         except:
             print(county, "build")
 
         try:
-            deviantLands = pd.DataFrame(np.array(landTableData), columns=["編號",	"土地位置",	"土地移轉面積(平方公尺)",	"使用分區或編定",	"權利人持分分母"	,"權利人持分分子"	,"移轉情形",	"地號"])
-            deviantLands.to_csv(os.path.join(path, county, "deviantLands_{}.csv".format(county)), encoding="utf-8-sig")
+            deviantLands = pd.DataFrame(np.array(landTableData), columns=self.landOutputCsvColumn)
+            deviantLands.to_csv(os.path.join(path, county, suffix + "Lands_{}.csv".format(county)), encoding="utf-8-sig")
         except:
             print(county, "land")
 
         try:
-            deviantParks = pd.DataFrame(np.array(parkTableData), columns=["編號"	,"車位類別",	"車位價格",	"車位面積平方公尺",	"車位所在樓層"])
-            deviantParks.to_csv(os.path.join(path, county, "deviantParks_{}.csv".format(county)), encoding="utf-8-sig")
+            deviantParks = pd.DataFrame(np.array(parkTableData), columns=self.parkOutputCsvColumn)
+            deviantParks.to_csv(os.path.join(path, county, suffix + "Parks_{}.csv".format(county)), encoding="utf-8-sig")
         except:
             print(county, "park")
-             
 
 
+    def initDirectory(self, path, county):
+        if os.path.exists(path) == False:
+            os.mkdir(path)
+        if os.path.exists(os.path.join(path, county)) == False:
+            os.mkdir(os.path.join(path, county))
             

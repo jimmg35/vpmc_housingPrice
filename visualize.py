@@ -47,6 +47,8 @@ def visualizeTypeRank(type, color):  #"正常交易量"
 
 if __name__ == "__main__":
     
+    # visualizeDeviant()
+
     graphSet = [visualizeTypeRank(i[0], i[1]) for i in [
             ("正常交易量", "green"), 
             ("異常交易量", "red"), 
