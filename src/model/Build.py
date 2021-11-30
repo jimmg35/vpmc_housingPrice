@@ -22,7 +22,7 @@ class Build():
         self.completionDate = row["建築完成日期"]
         self.mainUse = row["主要用途"]
         ###
-        self.buildingShiftingArea = row["建物移轉面積平方公尺"]
+        self.buildingShiftingArea = row["建物移轉面積平方公尺"]  # 建物移轉面積平方公尺 -> 建物移轉面積(平方公尺)
         ###
         self.buildingAge = row["屋齡"]
 

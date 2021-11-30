@@ -120,30 +120,33 @@ def outputDeviantTable(data, path, filename):
     df = pd.DataFrame(data=np_sheet, columns=data[0]["column"])
     df.to_csv(os.path.join(path, filename), encoding="utf-8-sig")
     
-def initCountyFolder(folderPath: str):
-    countys = [
-        "Changhua",
-        "ChiayiCity",
-        "ChiayiCounty",
-        "HsinchuCity",
-        "HsinchuCounty",
-        "Hualien",
-        "Kaohsiung",
-        "Keelung",
-        "Kinmen",
-        "Miaoli",
-        "Nantou",
-        "NewTaipei",
-        "Penghu", 
-        "Pingtung",
-        "Taichung",
-        "Tainan",
-        "Taipei",
-        "Taitung",
-        "Taoyuan",
-        "Yilan",
-        "Yunlin",
-    ]
+def initCountyFolder(folderPath: str, useCountyName=True):
+    if useCountyName:
+        countys = [
+            "Changhua",
+            "ChiayiCity",
+            "ChiayiCounty",
+            "HsinchuCity",
+            "HsinchuCounty",
+            "Hualien",
+            "Kaohsiung",
+            "Keelung",
+            "Kinmen",
+            "Miaoli",
+            "Nantou",
+            "NewTaipei",
+            "Penghu", 
+            "Pingtung",
+            "Taichung",
+            "Tainan",
+            "Taipei",
+            "Taitung",
+            "Taoyuan",
+            "Yilan",
+            "Yunlin",
+        ]
+    else:
+        countys = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'm', 'n', 'o', 'p', 'q', 't', 'u', 'v', 'w', 'x', 'z']
 
     if os.path.exists(folderPath) == False:
         os.mkdir(folderPath)

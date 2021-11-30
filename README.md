@@ -1,0 +1,2 @@
+拿到實價登陸資料，請先放入data/rawData
+並依序執行splitRaw2CSV.py與mergeRawCSV.py
