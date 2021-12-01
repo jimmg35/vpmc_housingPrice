@@ -30,23 +30,32 @@ def readFile(path: str, type: str) -> List[Deal]:
         elif type == "Park":
             instance = Park(row)
         output.append(instance)
+        print(type, index)
     return output
 
 def structureHolder(dealArrays: List[Deal], buildArrays: List[Build],
                     landArrays: List[Land], parkArrays: List[Park]) -> List[Holder]:
     output: HolderArray = HolderArray()
     # output: List[Holder] = []
-    for deal in dealArrays:
+    for index, deal in enumerate(dealArrays):
         holder = Holder(deal)
+
         for build in buildArrays:
             if build.serialNumber == deal.serialNumber:
                 holder.builds.append(build)
+                buildArrays.remove(build)
+
         for land in landArrays:  
             if land.serialNumber == deal.serialNumber:
                 holder.lands.append(land)
+                landArrays.remove(land)
+
         for park in parkArrays:  
             if park.serialNumber == deal.serialNumber:
                 holder.parks.append(park)
+                parkArrays.remove(park)
+
+        print(index)
         holder.startUp()
         output.contents.append(holder)
     return output
@@ -150,6 +159,8 @@ def initCountyFolder(folderPath: str, useCountyName=True):
 
     if os.path.exists(folderPath) == False:
         os.mkdir(folderPath)
+    else:
+        return
 
     for i in countys:
         countyFolder = os.path.join(folderPath, i)

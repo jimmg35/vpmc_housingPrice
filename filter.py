@@ -6,7 +6,7 @@
 # from src.model.Park import Park
 
 # from src.holder.Holder import Holder
-# from src.holder.HolderArray import HolderArray 
+from src.holder.HolderArray import HolderArray 
 
 # import pandas as pd 
 # import numpy as np 
@@ -28,18 +28,18 @@ if __name__ == "__main__":
     # outputDeviantTable(totalStatsChunk, "deviantStats", "deviantStats.csv")
 
     # 輸出正常交易資料
-    initCountyFolder("normalCases")
-    outputCases("data", "normalCases", deviant=False) 
+    # initCountyFolder("data/normalCases", useCountyName=False)
+    # outputCases("data/mergeData", "normalCases", deviant=False) 
 
     
 
-    # dealArrays = readFile("data/Taoyuan/deal.csv", "Deal")
-    # buildArrays = readFile("data/Taoyuan/build.csv", "Build")
-    # landArrays = readFile("data/Taoyuan/land.csv", "Land")
-    # parkArrays = readFile("data/Taoyuan/park.csv", "Park")
+    dealArrays = readFile("data/mergeData/a/deal.csv", "Deal")
+    buildArrays = readFile("data/mergeData/a/build.csv", "Build")
+    landArrays = readFile("data/mergeData/a/land.csv", "Land")
+    parkArrays = readFile("data/mergeData/a/park.csv", "Park")
 
-    # holderArray: HolderArray = structureHolder(dealArrays, buildArrays, landArrays, parkArrays)
-    # holderArray.status("Taoyuan")
+    holderArray: HolderArray = structureHolder(dealArrays, buildArrays, landArrays, parkArrays)
+    holderArray.status("a")
     # holderArray.exportDeviantCases("deviantCases", "Taoyuan")
 
     
