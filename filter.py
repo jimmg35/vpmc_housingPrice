@@ -33,13 +33,14 @@ if __name__ == "__main__":
 
     
 
-    dealArrays = readFile("data/mergeData/a/deal.csv", "Deal")
-    buildArrays = readFile("data/mergeData/a/build.csv", "Build")
-    landArrays = readFile("data/mergeData/a/land.csv", "Land")
-    parkArrays = readFile("data/mergeData/a/park.csv", "Park")
+    dealArrays = readFile("data/mergeData/h/deal.csv", "Deal")
+    buildArrays = readFile("data/mergeData/h/build.csv", "Build")
+    landArrays = readFile("data/mergeData/h/land.csv", "Land")
+    parkArrays = readFile("data/mergeData/h/park.csv", "Park")
 
     holderArray: HolderArray = structureHolder(dealArrays, buildArrays, landArrays, parkArrays)
-    holderArray.status("a")
+    holderArray.status("h")
+    holderArray.exportCases("normalCases", "h", deviant=False)
     # holderArray.exportDeviantCases("deviantCases", "Taoyuan")
 
     
