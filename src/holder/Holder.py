@@ -176,13 +176,40 @@ class Holder():
 
     def parseShiftingLevel(self):
         if(str(self.deal.shiftingLevel) != "nan"):
+            self.deal.shiftingLevel = self.deal.shiftingLevel.strip()
             shiftingLevelArray = self.deal.shiftingLevel.split('，')
-            if "夾層" in shiftingLevelArray:
+
+            trueLevelArray = []
+            for i in shiftingLevelArray:
+                if "層" in i:
+                    trueLevelArray.append(i)
+
+            if(len(trueLevelArray) != 1):
                 self.dealIsDeviant = True
-                self.shiftingLevelMezzanineIsDeviant = True
-            if len(shiftingLevelArray) != 1 and "陽台" not in shiftingLevelArray:
-                self.dealIsDeviant = True
-                self.shiftingLevelDuplexIsDeviant = True
+                self.totalLevelIsDeviant = True
+            else:
+                if "夾層" in shiftingLevelArray:
+                    self.dealIsDeviant = True
+                    self.shiftingLevelMezzanineIsDeviant = True
+                if len(shiftingLevelArray) != 1 and "陽台" not in shiftingLevelArray:
+                    self.dealIsDeviant = True
+                    self.shiftingLevelDuplexIsDeviant = True
+                
+                level: str = trueLevelArray[0]
+                try:
+                    parsedLevel = level[0:level.index("層")]
+                    if("地下" in parsedLevel):
+                        parsedLevel = parsedLevel[parsedLevel.index("地下")+2: len(parsedLevel)]
+                        if(parsedLevel == ""):
+                            self.parsedShiftingLevel = 0
+                        else:
+                            self.parsedShiftingLevel = -cn2an.cn2an(parsedLevel) 
+                    else:
+                        self.parsedShiftingLevel = cn2an.cn2an(parsedLevel)
+                except:
+                    self.parsedShiftingLevel = -999
+                    self.dealIsDeviant = True
+                    self.totalLevelIsDeviant = True
 
     ###################################  將解析過的欄位輸入至實體
 
@@ -193,6 +220,8 @@ class Holder():
         self.deal.parkTransactionAmount = self.transactionAmountParsed["車位"]
         ## 解析後的總樓層數
         self.deal.parsedTotalFloorNumber = self.parsedTotalLevel
+        ## 解析後的移轉樓層
+        self.deal.parsedShiftingLevel = self.parsedShiftingLevel
 
 
 
@@ -220,6 +249,7 @@ class Holder():
 
         self.injectParsedColumn()      # 將解析完成的欄位輸入至實體
         print(self.deal.shiftingLevel)
+        print(self.deal.parsedShiftingLevel)
 
 
     ###################################

@@ -93,6 +93,7 @@ class Deal():
         self.buildingTransactionAmount = 0
         self.parkTransactionAmount = 0
         self.parsedTotalFloorNumber = 0
+        self.parsedShiftingLevel = 0 ## 
 
 
     def outputRow(self):
@@ -105,7 +106,7 @@ class Deal():
             self.parkTransactionAmount,
 
             self.parsedTotalFloorNumber,
-            
+
             self.buildingMaterial,
             self.transactionSign,
             self.nonMetroLandUse,
