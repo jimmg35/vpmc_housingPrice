@@ -33,6 +33,9 @@ class Holder():
     hasManageOrganization: bool   # 有無管理組織
     hasCompartmented: bool        # 有無隔間
     hasElevator: bool             # 有無電梯
+    ###
+    unitPrice: float                     # 計算出的單位價格
+    unitPriceDifferenceThreshold: float  # 單位價格容忍門檻
 
     def __init__(self, deal):
         self.deal = deal
@@ -101,6 +104,9 @@ class Holder():
         self.hasManageOrganization = False
         self.hasCompartmented = False
         self.hasElevator = False
+        #########
+        self.unitPrice = 0
+        self.unitPriceDifferenceThreshold = 10
 
     ###################################  解析交易內容
 
@@ -238,13 +244,15 @@ class Holder():
     ###################################  根據移轉面積解析單位價格是否有異常
 
     def checkUnitPriceByShiftingArea(self):
-        unitPrice = 0
-        if str(self.deal.shiftingLevel) == "nan": # 如果不含建物
-            unitPrice = float( self.deal.totalPrice ) / float( self.deal.landShiftingArea )
-        else:
-            unitPrice = float( self.deal.totalPrice ) / float( self.deal.buildingShiftingArea )
         
-        print(unitPrice, self.deal.unitPrice, abs(float(self.deal.unitPrice) - unitPrice) )
+        if str(self.deal.shiftingLevel) == "nan": # 如果不含建物
+            self.unitPrice = float( self.deal.totalPrice ) / float( self.deal.landShiftingArea )
+        else:
+            self.unitPrice = float( self.deal.totalPrice ) / float( self.deal.buildingShiftingArea )
+        
+        if abs(float(self.deal.unitPrice) - self.unitPrice) >= self.unitPriceDifferenceThreshold:
+            self.unitPriceIsDeviant = True
+            self.dealIsDeviant = True
 
 
 
@@ -265,6 +273,8 @@ class Holder():
         self.deal.hasManageOrganization = self.hasManageOrganization
         self.deal.hasCompartmented = self.hasCompartmented
         self.deal.hasElevator = self.hasElevator
+        ## 解析後的單位價格
+        self.deal.unitPrice = self.unitPrice
 
 
     def startUp(self):
