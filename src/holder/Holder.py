@@ -80,6 +80,7 @@ class Holder():
         #########
 
         self.parsedTotalLevel = 0
+        self.parsedShiftingLevel = 0
         self.buildingStateArray = [
             '住宅大樓', '公寓', '其他', '透天厝',
             '華廈', '套房', '廠辦', '辦公商業大樓',
