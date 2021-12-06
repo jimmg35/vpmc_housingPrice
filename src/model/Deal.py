@@ -93,26 +93,27 @@ class Deal():
         self.buildingTransactionAmount = 0
         self.parkTransactionAmount = 0
         self.parsedTotalFloorNumber = 0
-        self.parsedShiftingLevel = 0 ## 
+        self.parsedShiftingLevel = 0
+        self.hasManageOrganization = False
+        self.hasCompartmented = False
+        self.hasElevator = False
 
 
     def outputRow(self):
         return [
             self.serialNumber,
             self.nonMetroLandUseDistrict,
-
             self.landTransactionAmount,
             self.buildingTransactionAmount,
             self.parkTransactionAmount,
-
             self.parsedTotalFloorNumber,
-
             self.buildingMaterial,
             self.transactionSign,
             self.nonMetroLandUse,
             self.transactionDate,
             self.completionDate,
             self.shiftingLevel,
+            self.parsedShiftingLevel,
             self.buildingState,
             self.parkCategory,
             self.mainUse,
@@ -132,9 +133,9 @@ class Deal():
             self.healthNumber,
             self.roomNumber,
             self.hallNumber,
-            self.manageOrganization,
-            self.compartmented,
-            self.elevator,
+            self.hasManageOrganization,
+            self.hasCompartmented,
+            self.hasElevator,
             self.coordinate_x,
             self.coordinate_y
         ]

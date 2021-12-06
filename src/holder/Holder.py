@@ -19,6 +19,7 @@ class Holder():
     totalLevelIsDeviant: bool             # 轉移樓層異常
     shiftingLevelMezzanineIsDeviant: bool # 有夾層
     shiftingLevelDuplexIsDeviant: bool    # 樓中樓
+    unitPriceIsDeviant: bool              # 沒有單位價格
     ###
     transactionSignParsed: Dict
     transactionAmountParsed: Dict
@@ -28,7 +29,10 @@ class Holder():
     parsedTotalLevel: int
     buildingStateArray: List
     buildingStateLevel: Dict
-
+    ###
+    hasManageOrganization: bool   # 有無管理組織
+    hasCompartmented: bool        # 有無隔間
+    hasElevator: bool             # 有無電梯
 
     def __init__(self, deal):
         self.deal = deal
@@ -43,6 +47,7 @@ class Holder():
         self.totalLevelIsDeviant = False
         self.shiftingLevelMezzanineIsDeviant = False
         self.shiftingLevelDuplexIsDeviant = False
+        self.unitPriceIsDeviant = False
 
         #########        
 
@@ -92,7 +97,10 @@ class Holder():
             '華廈': 10,
         }
 
-
+        #########
+        self.hasManageOrganization = False
+        self.hasCompartmented = False
+        self.hasElevator = False
 
     ###################################  解析交易內容
 
@@ -212,6 +220,36 @@ class Holder():
                     self.dealIsDeviant = True
                     self.totalLevelIsDeviant = True
 
+    ###################################  解析有無管理組織 隔間 電梯
+
+    def parseBooleanColumn(self):
+        if str(self.deal.manageOrganization) != "nan":
+            if str(self.deal.manageOrganization) == "有":
+                self.hasManageOrganization = True
+        
+        if str(self.deal.compartmented) != "nan":
+            if str(self.deal.compartmented) == "有":
+                self.hasCompartmented = True
+        
+        if str(self.deal.elevator) != "nan":
+            if str(self.deal.elevator) == "有":
+                self.hasElevator = True
+                
+    ###################################  根據移轉面積解析單位價格是否有異常
+
+    def checkUnitPriceByShiftingArea(self):
+        unitPrice = 0
+        if str(self.deal.shiftingLevel) == "nan": # 如果不含建物
+            unitPrice = float( self.deal.totalPrice ) / float( self.deal.landShiftingArea )
+        else:
+            unitPrice = float( self.deal.totalPrice ) / float( self.deal.buildingShiftingArea )
+        
+        print(unitPrice, self.deal.unitPrice, abs(float(self.deal.unitPrice) - unitPrice) )
+
+
+
+
+
     ###################################  將解析過的欄位輸入至實體
 
     def injectParsedColumn(self):
@@ -223,8 +261,10 @@ class Holder():
         self.deal.parsedTotalFloorNumber = self.parsedTotalLevel
         ## 解析後的移轉樓層
         self.deal.parsedShiftingLevel = self.parsedShiftingLevel
-
-
+        ## 解析後的電梯、隔間、管理組織狀態
+        self.deal.hasManageOrganization = self.hasManageOrganization
+        self.deal.hasCompartmented = self.hasCompartmented
+        self.deal.hasElevator = self.hasElevator
 
 
     def startUp(self):
@@ -248,9 +288,16 @@ class Holder():
 
         ###
 
+        self.parseBooleanColumn()                 # 解析是否有管委會、隔間、電梯
+
+        ###
+
+        self.checkUnitPriceByShiftingArea()       # 根據移轉面積解析單位價格是否有異常
+
+        ###
+
         self.injectParsedColumn()      # 將解析完成的欄位輸入至實體
-        print(self.deal.shiftingLevel)
-        print(self.deal.parsedShiftingLevel)
+        
 
 
     ###################################
