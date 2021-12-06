@@ -92,17 +92,20 @@ class Deal():
         self.landTransactionAmount = 0
         self.buildingTransactionAmount = 0
         self.parkTransactionAmount = 0
+        self.parsedTotalFloorNumber = 0
 
 
     def outputRow(self):
         return [
             self.serialNumber,
             self.nonMetroLandUseDistrict,
-            self.transactionAmount,
+
             self.landTransactionAmount,
             self.buildingTransactionAmount,
             self.parkTransactionAmount,
-            self.totalFloorNumber,
+
+            self.parsedTotalFloorNumber,
+            
             self.buildingMaterial,
             self.transactionSign,
             self.nonMetroLandUse,

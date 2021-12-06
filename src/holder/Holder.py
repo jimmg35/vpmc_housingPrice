@@ -184,12 +184,17 @@ class Holder():
                 self.dealIsDeviant = True
                 self.shiftingLevelDuplexIsDeviant = True
 
-    ###################################  將解析過的交易筆棟數輸出至三個欄位
+    ###################################  將解析過的欄位輸入至實體
 
-    def injectParsedTransactionAmount(self):
+    def injectParsedColumn(self):
+        ## 解析後的交易筆棟數
         self.deal.landTransactionAmount = self.transactionAmountParsed["土地"]
         self.deal.buildingTransactionAmount = self.transactionAmountParsed["建物"]
         self.deal.parkTransactionAmount = self.transactionAmountParsed["車位"]
+        ## 解析後的總樓層數
+        self.deal.parsedTotalFloorNumber = self.parsedTotalLevel
+
+
 
 
     def startUp(self):
@@ -213,7 +218,8 @@ class Holder():
 
         ###
 
-        self.injectParsedTransactionAmount()      # 將解析完成的交易筆棟數輸入至實體
+        self.injectParsedColumn()      # 將解析完成的欄位輸入至實體
+        print(self.deal.shiftingLevel)
 
 
     ###################################
