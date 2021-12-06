@@ -244,13 +244,19 @@ class Holder():
     ###################################  根據移轉面積解析單位價格是否有異常
 
     def checkUnitPriceByShiftingArea(self):
+
+        try:
         
-        if str(self.deal.shiftingLevel) == "nan": # 如果不含建物
-            self.unitPrice = float( self.deal.totalPrice ) / float( self.deal.landShiftingArea )
-        else:
-            self.unitPrice = float( self.deal.totalPrice ) / float( self.deal.buildingShiftingArea )
+            if str(self.deal.shiftingLevel) == "nan": # 如果不含建物
+                self.unitPrice = float( self.deal.totalPrice ) / float( self.deal.landShiftingArea )
+            else:
+                self.unitPrice = float( self.deal.totalPrice ) / float( self.deal.buildingShiftingArea )
+            
+            if abs(float(self.deal.unitPrice) - self.unitPrice) >= self.unitPriceDifferenceThreshold:
+                self.unitPriceIsDeviant = True
+                self.dealIsDeviant = True
         
-        if abs(float(self.deal.unitPrice) - self.unitPrice) >= self.unitPriceDifferenceThreshold:
+        except:
             self.unitPriceIsDeviant = True
             self.dealIsDeviant = True
 
