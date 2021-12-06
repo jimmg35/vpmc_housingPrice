@@ -87,11 +87,21 @@ class Deal():
         self.coordinate_x = row["交易標的縱坐標"]
         self.coordinate_y = row["交易標的橫坐標"]
 
+
+        ##### 以下為computed column
+        self.landTransactionAmount = 0
+        self.buildingTransactionAmount = 0
+        self.parkTransactionAmount = 0
+
+
     def outputRow(self):
         return [
             self.serialNumber,
             self.nonMetroLandUseDistrict,
             self.transactionAmount,
+            self.landTransactionAmount,
+            self.buildingTransactionAmount,
+            self.parkTransactionAmount,
             self.totalFloorNumber,
             self.buildingMaterial,
             self.transactionSign,
