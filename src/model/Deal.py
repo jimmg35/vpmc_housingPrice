@@ -41,7 +41,9 @@ class Deal():
     ###
     longitude: float
     latitude: float
-
+    ###
+    coordinate_x: float
+    coordinate_y: float
 
     def __init__(self, row):
         self.serialNumber = row["編號"]
@@ -64,7 +66,7 @@ class Deal():
         self.town = row["鄉鎮市區"]
         self.note = row["備註"]
         ###
-        self.buildingShiftingArea = row["土地位置/建物門牌"] # 建物移轉總面積(平方公尺)
+        self.buildingShiftingArea = row["建物移轉總面積(平方公尺)"] # 建物移轉總面積(平方公尺)
         self.landShiftingArea = row["土地移轉總面積(平方公尺)"]    # 土地移轉總面積(平方公尺)
         self.mainBuildingArea = row["主建物面積"]
         self.parkShiftingArea = row["車位移轉總面積(平方公尺)"]
@@ -81,43 +83,82 @@ class Deal():
         self.manageOrganization = row["有無管理組織"]
         self.compartmented = row["建物現況格局-隔間"]
         self.elevator = row["電梯"]
+        ###
+        self.coordinate_x = row["交易標的縱坐標"]
+        self.coordinate_y = row["交易標的橫坐標"]
 
     def outputRow(self):
         return [
-            self.town,
-            self.transactionSign,
-            self.address,
-            self.landShiftingArea,
-            self.landUse,
+            self.serialNumber,
             self.nonMetroLandUseDistrict,
+            self.transactionAmount,
+            self.totalFloorNumber,
+            self.buildingMaterial,
+            self.transactionSign,
             self.nonMetroLandUse,
             self.transactionDate,
-            self.transactionAmount,
-            self.shiftingLevel,
-            self.totalFloorNumber,
-            self.buildingState,
-            self.mainUse,
-            self.buildingMaterial,
             self.completionDate,
+            self.shiftingLevel,
+            self.buildingState,
+            self.parkCategory,
+            self.mainUse,
+            self.address,
+            self.landUse,
+            self.town,
+            self.note,
             self.buildingShiftingArea,
+            self.landShiftingArea,
+            self.mainBuildingArea,
+            self.parkShiftingArea,
+            self.subBuildingArea,
+            self.parkTotalPrice,
+            self.belconyArea,
+            self.totalPrice,           
+            self.unitPrice,
+            self.healthNumber,
             self.roomNumber,
             self.hallNumber,
-            self.healthNumber,
-            self.compartmented,
             self.manageOrganization,
-            self.totalPrice,
-            self.unitPrice,
-            self.parkCategory,
-            self.parkShiftingArea,
-            self.parkTotalPrice,
-            self.note,
-            self.serialNumber,
-            self.mainBuildingArea,
-            self.subBuildingArea,
-            self.belconyArea,
+            self.compartmented,
             self.elevator,
-            # self.shiftingCode
+            self.coordinate_x,
+            self.coordinate_y
         ]
+        # return [
+        #     self.town,
+        #     self.transactionSign,
+        #     self.address,
+        #     self.landShiftingArea,
+        #     self.landUse,
+        #     self.nonMetroLandUseDistrict,
+        #     self.nonMetroLandUse,
+        #     self.transactionDate,
+        #     self.transactionAmount,
+        #     self.shiftingLevel,
+        #     self.totalFloorNumber,
+        #     self.buildingState,
+        #     self.mainUse,
+        #     self.buildingMaterial,
+        #     self.completionDate,
+        #     self.buildingShiftingArea,
+        #     self.roomNumber,
+        #     self.hallNumber,
+        #     self.healthNumber,
+        #     self.compartmented,
+        #     self.manageOrganization,
+        #     self.totalPrice,
+        #     self.unitPrice,
+        #     self.parkCategory,
+        #     self.parkShiftingArea,
+        #     self.parkTotalPrice,
+        #     self.note,
+        #     self.serialNumber,
+        #     self.mainBuildingArea,
+        #     self.subBuildingArea,
+        #     self.belconyArea,
+        #     self.elevator,
+        #     # self.shiftingCode
+        # ]
 
     def outputRow_geocoded(self):
         return [

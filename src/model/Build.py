@@ -29,11 +29,21 @@ class Build():
     def outputRow(self):
         return [
             self.serialNumber,
-            self.buildingAge,
-            self.buildingShiftingArea,
-            self.mainUse,
+            self.buildingLamination,
             self.buildingMaterial,
-            self.completionDate,
             self.totalFloorNumber,
-            self.buildingLamination
+            self.completionDate,
+            self.mainUse,
+            self.buildingShiftingArea,
+            self.buildingAge,
         ]
+        # return [
+        #     self.serialNumber,
+        #     self.buildingAge,
+        #     self.buildingShiftingArea,
+        #     self.mainUse,
+        #     self.buildingMaterial,
+        #     self.completionDate,
+        #     self.totalFloorNumber,
+        #     self.buildingLamination
+        # ]

@@ -2,6 +2,7 @@
 from .Holder import Holder
 
 import os
+import json
 import numpy as np
 import pandas as pd
 from typing import List
@@ -17,11 +18,16 @@ class HolderArray():
 
     def __init__(self):
         self.contents = []
-        self.parkOutputCsvColumn = ["編號"	,"車位類別",	"車位價格",	"車位面積平方公尺",	"車位所在樓層"]
-        self.landOutputCsvColumn = ["編號",	"土地位置",	"土地移轉面積(平方公尺)",	"使用分區或編定",	"權利人持分分母"	,"權利人持分分子"	,"移轉情形",	"地號"]
-        self.buildOutputCsvColumn = ["編號",	"屋齡",	"建物移轉面積平方公尺",	"主要用途",	"主要建材"	,"建築完成日期"	,"總層數"	,"建物分層"]
-        self.dealOutputCsvColumn = ["鄉鎮市區","交易標的","土地位置建物門牌","土地移轉總面積平方公尺","都市土地使用分區","非都市土地使用分區","非都市土地使用編定","交易年月日","交易筆棟數","移轉層次",	"總樓層數",	"建物型態"	,"主要用途"	,"主要建材",	"建築完成年月",	"建物移轉總面積平方公尺",	"建物現況格局-房",	"建物現況格局-廳",	"建物現況格局-衛",	"建物現況格局-隔間",	"有無管理組織",	"總價元",	"單價元平方公尺",	"車位類別",	"車位移轉總面積(平方公尺)",	"車位總價元",	"備註",	"編號",	"主建物面積",	"附屬建物面積",	"陽台面積",	"電梯",	"移轉編號"]
-
+        f = open("./config/schema.json", 'r', encoding="utf-8")
+        schema = json.load(f)
+        # self.parkOutputCsvColumn = ["編號"	,"車位類別",	"車位價格",	"車位面積平方公尺",	"車位所在樓層"]
+        # self.landOutputCsvColumn = ["編號",	"土地位置",	"土地移轉面積(平方公尺)",	"使用分區或編定",	"權利人持分分母"	,"權利人持分分子"	,"移轉情形",	"地號"]
+        # self.buildOutputCsvColumn = ["編號",	"屋齡",	"建物移轉面積平方公尺",	"主要用途",	"主要建材"	,"建築完成日期"	,"總層數"	,"建物分層"]
+        # self.dealOutputCsvColumn = ["鄉鎮市區","交易標的","土地位置建物門牌","土地移轉總面積平方公尺","都市土地使用分區","非都市土地使用分區","非都市土地使用編定","交易年月日","交易筆棟數","移轉層次",	"總樓層數",	"建物型態"	,"主要用途"	,"主要建材",	"建築完成年月",	"建物移轉總面積平方公尺",	"建物現況格局-房",	"建物現況格局-廳",	"建物現況格局-衛",	"建物現況格局-隔間",	"有無管理組織",	"總價元",	"單價元平方公尺",	"車位類別",	"車位移轉總面積(平方公尺)",	"車位總價元",	"備註",	"編號",	"主建物面積",	"附屬建物面積",	"陽台面積",	"電梯",	"移轉編號"]
+        self.parkOutputCsvColumn = schema['park']
+        self.landOutputCsvColumn = schema['land']
+        self.buildOutputCsvColumn = schema['build']
+        self.dealOutputCsvColumn = schema['deal']
 
     def status(self, county):
         self.normal = []
@@ -104,29 +110,29 @@ class HolderArray():
                         park.outputRow()
                     )
         
-        try:
-            deviantDeals = pd.DataFrame(np.array(dealTableData), columns=self.dealOutputCsvColumn)
-            deviantDeals.to_csv(os.path.join(path, county, suffix + "Deals_{}.csv".format(county)), encoding="utf-8-sig")
-        except:
-            print(county, "deal")
+        # try:
+        deviantDeals = pd.DataFrame(np.array(dealTableData), columns=self.dealOutputCsvColumn)
+        deviantDeals.to_csv(os.path.join(path, county, suffix + "Deals_{}.csv".format(county)), encoding="utf-8-sig")
+        # except:
+        #     print(county, "deal")
         
-        try:
-            deviantBuilds = pd.DataFrame(np.array(buildTableData), columns=self.buildOutputCsvColumn)
-            deviantBuilds.to_csv(os.path.join(path, county, suffix + "Builds_{}.csv".format(county)), encoding="utf-8-sig")
-        except:
-            print(county, "build")
+        # try:
+        deviantBuilds = pd.DataFrame(np.array(buildTableData), columns=self.buildOutputCsvColumn)
+        deviantBuilds.to_csv(os.path.join(path, county, suffix + "Builds_{}.csv".format(county)), encoding="utf-8-sig")
+        # except:
+        #     print(county, "build")
 
-        try:
-            deviantLands = pd.DataFrame(np.array(landTableData), columns=self.landOutputCsvColumn)
-            deviantLands.to_csv(os.path.join(path, county, suffix + "Lands_{}.csv".format(county)), encoding="utf-8-sig")
-        except:
-            print(county, "land")
+        # try:
+        deviantLands = pd.DataFrame(np.array(landTableData), columns=self.landOutputCsvColumn)
+        deviantLands.to_csv(os.path.join(path, county, suffix + "Lands_{}.csv".format(county)), encoding="utf-8-sig")
+        # except:
+        #     print(county, "land")
 
-        try:
-            deviantParks = pd.DataFrame(np.array(parkTableData), columns=self.parkOutputCsvColumn)
-            deviantParks.to_csv(os.path.join(path, county, suffix + "Parks_{}.csv".format(county)), encoding="utf-8-sig")
-        except:
-            print(county, "park")
+        # try:
+        deviantParks = pd.DataFrame(np.array(parkTableData), columns=self.parkOutputCsvColumn)
+        deviantParks.to_csv(os.path.join(path, county, suffix + "Parks_{}.csv".format(county)), encoding="utf-8-sig")
+        # except:
+        #     print(county, "park")
 
 
     def initDirectory(self, path, county):

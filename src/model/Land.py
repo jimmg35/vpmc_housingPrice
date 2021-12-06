@@ -29,11 +29,21 @@ class Land():
     def outputRow(self):
         return [
             self.serialNumber,
+            self.shiftingStatus,
             self.landPosition,
-            self.landShiftingArea,
+            self.landParcel,
             self.landUse,
+            self.landShiftingArea,
             self.rightOwnerHoldsDenumerate,
             self.rightOwnerHoldsNumerate,
-            self.shiftingStatus,
-            self.landParcel
         ]
+        # return [
+        #     self.serialNumber,
+        #     self.landPosition,
+        #     self.landShiftingArea,
+        #     self.landUse,
+        #     self.rightOwnerHoldsDenumerate,
+        #     self.rightOwnerHoldsNumerate,
+        #     self.shiftingStatus,
+        #     self.landParcel
+        # ]

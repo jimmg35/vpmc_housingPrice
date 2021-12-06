@@ -24,7 +24,14 @@ class Park():
         return [
             self.serialNumber,
             self.parkCategory,
-            self.parkPrice,
+            self.parkLevel,
             self.parkArea,
-            self.parkLevel
+            self.parkPrice,
         ]
+        # return [
+        #     self.serialNumber,
+        #     self.parkCategory,
+        #     self.parkPrice,
+        #     self.parkArea,
+        #     self.parkLevel
+        # ]
